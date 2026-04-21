@@ -24,13 +24,17 @@ The core logic where the AI processes the ingested data.
 *   **Strategy 1: Yield Optimizer:** Compares APYs across lending protocols (Aave, Compound) and liquidity pools (Uniswap V3, Curve). Calculates net yield after estimated gas costs.
 *   **Strategy 2: Arbitrage Scanner:** Looks for price discrepancies of the same asset across different DEXs.
 *   **Strategy 3: Narrative/Momentum (Future):** Analyzes sentiment to predict short-term token movements based on protocol upgrades or news.
+*   **Rigorous Edge Verification:** The AI MUST prove its edge before signaling. It calculates: `Expected Profit - (Max Gas Fee + Expected Slippage + Protocol Fees + Network Latency Cost)`. If the net result is <= 0 or fails to beat a simple "Buy and Hold" passive baseline, the trade is rejected.
+*   **Position Sizing & Risk Management:** Implements dynamic position sizing (e.g., Kelly Criterion) based on the confidence of the signal and hard stop-loss limits for yield positions that experience sudden drawdown.
 *   **Risk Assessment:** A critical sub-module that evaluates the security score of a protocol (using DefiLlama data or other auditors) before allocating virtual funds.
 
-### 3. Execution Simulator (Paper Trading Engine)
-In Phase 1, this replaces actual blockchain interaction.
+### 3. Execution Simulator (Paper Trading Engine & Backtester)
+In Phase 1, this replaces actual blockchain interaction and serves as the ultimate proving ground.
+*   **Backtesting Engine:** Runs historical data through the AI Brain to answer: "Does this strategy win consistently across different market conditions (bull, bear, crab)?"
+*   **Friction Simulator:** Replicates real-world execution costs (gas spikes, slippage from AMM curves, front-running/MEV impact).
 *   **Virtual Portfolio Manager:** Tracks hypothetical balances of various tokens.
-*   **Transaction Logger:** Records every "trade" or "deposit" the AI decides to make, including the timestamp, amount, expected slippage, and assumed gas fee.
-*   **Performance Tracker:** Calculates ROI (Return on Investment) over time based on real market data.
+*   **Transaction Logger:** Records every "trade", including the timestamp, amount, expected slippage, assumed gas fee, and the *baseline comparison* (how the portfolio would look if no action was taken).
+*   **Performance Tracker:** Calculates ROI, Maximum Drawdown, and Sharpe Ratio over time.
 
 ### 4. Alerting System
 *   **Threshold Monitoring:** If an opportunity exceeds a predefined threshold (e.g., "Arbitrage spread > 2%" or "Stablecoin yield > 20% APY on a top-tier protocol"), it triggers an alert.
