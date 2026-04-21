@@ -1,5 +1,6 @@
 from defi_agent.models import PoolData
 import responses
+import requests
 from defi_agent.ingestion.defillama import DefiLlamaClient
 
 def test_pool_data_model():
@@ -44,3 +45,18 @@ def test_fetch_yields():
     assert len(pools) == 1
     assert pools[0].project == "lido"
     assert pools[0].tvl_usd == 5000000
+
+@responses.activate
+def test_fetch_yields_api_error():
+    responses.add(
+        responses.GET,
+        "https://yields.llama.fi/pools",
+        status=500
+    )
+    
+    client = DefiLlamaClient()
+    pools = client.fetch_yields()
+    
+    # We want it to handle the error gracefully and return an empty list for now
+    # or we might want to raise a custom exception. Let's return empty list for resilience.
+    assert pools == []

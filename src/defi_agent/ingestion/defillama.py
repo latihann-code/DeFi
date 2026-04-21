@@ -6,10 +6,13 @@ class DefiLlamaClient:
     
     def fetch_yields(self) -> list[PoolData]:
         url = f"{self.BASE_YIELDS_URL}/pools"
-        response = requests.get(url)
-        response.raise_for_status()
-        
-        data = response.json().get("data", [])
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json().get("data", [])
+        except (requests.RequestException, ValueError):
+            return []
+            
         pools = []
         for item in data:
             try:
