@@ -22,7 +22,7 @@ class DefiLlamaClient:
                         pool=item.get("pool", ""),
                         project=item.get("project", ""),
                         chain=item.get("chain", ""),
-                        tvlUsd=float(item["tvlUsd"]),
+                        tvl_usd=float(item["tvlUsd"]),
                         apy=float(item["apy"])
                     )
                     pools.append(pool)

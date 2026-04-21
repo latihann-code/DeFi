@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import List
 
 @dataclass
 class PoolData:
@@ -7,10 +8,8 @@ class PoolData:
     chain: str
     tvl_usd: float
     apy: float
-
-    def __init__(self, pool: str, project: str, chain: str, tvlUsd: float, apy: float):
-        self.pool = pool
-        self.project = project
-        self.chain = chain
-        self.tvl_usd = tvlUsd
-        self.apy = apy
+    underlying_tokens: List[str] = field(default_factory=list)
+    age_days: int = 0
+    tvl_drop_24h_percent: float = 0.0
+    apy_volatility_penalty: float = 0.0
+    inflation_discount: float = 0.0
