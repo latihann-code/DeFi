@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Dict
 
 @dataclass
 class PoolData:
@@ -13,3 +13,14 @@ class PoolData:
     tvl_drop_24h_percent: float = 0.0
     apy_volatility_penalty: float = 0.0
     inflation_discount: float = 0.0
+    
+    # New metrics for Meta-Agent
+    volatility_index: float = 1.0 # 1.0 = normal, >1.0 = high risk
+    audit_score: float = 1.0 # 0.0 to 1.0
+
+@dataclass
+class Position:
+    pool_id: str
+    amount: float
+    entry_timestamp: int
+    entry_apy: float
