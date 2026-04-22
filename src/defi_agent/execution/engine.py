@@ -23,5 +23,15 @@ class AdapterEngine:
             return adapter.encode_withdraw(params["asset"], params["amount"])
         elif action == "APPROVE":
             return adapter.encode_approve(params["asset"], params["spender"], params["amount"])
+        elif action == "SWAP":
+            # Uniswap V3 specific
+            return adapter.encode_swap(
+                params["token_in"], 
+                params["token_out"], 
+                params["amount_in"], 
+                params["min_amount_out"], 
+                params["recipient"],
+                params.get("fee", 3000)
+            )
         else:
             raise ValueError(f"Aksi {action} tidak didukung.")

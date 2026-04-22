@@ -1,5 +1,5 @@
 from web3 import Web3
-from web3.types import TxParams, WeightedTxParams
+from web3.types import TxParams
 import time
 
 class TransactionManager:
