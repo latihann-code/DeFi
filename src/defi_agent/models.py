@@ -11,6 +11,7 @@ class PoolData:
     underlying_tokens: List[str] = field(default_factory=list)
     age_days: int = 0
     tvl_drop_24h_percent: float = 0.0
+    apy_spike_24h_percent: float = 0.0 # New: detect abnormal APY jumps
     apy_volatility_penalty: float = 0.0
     inflation_discount: float = 0.0
     
