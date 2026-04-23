@@ -19,6 +19,12 @@ from defi_agent.execution.engine import AdapterEngine
 from defi_agent.execution.adapters.aave_v3 import AaveV3Adapter
 from defi_agent.execution.adapters.uniswap_v3 import UniswapV3Adapter
 
+# Minimal ERC20 ABI for Balance & Allowance checks
+ERC20_ABI = [
+    {"constant": True, "inputs": [{"name": "_owner", "type": "address"}], "name": "balanceOf", "outputs": [{"name": "balance", "type": "uint256"}], "type": "function"},
+    {"constant": True, "inputs": [{"name": "_owner", "type": "address"}, {"name": "_spender", "type": "address"}], "name": "allowance", "outputs": [{"name": "", "type": "uint256"}], "type": "function"}
+]
+
 # Setup Logging
 logging.basicConfig(
     level=logging.INFO, 
@@ -104,10 +110,33 @@ class SevenDayPredator:
         # We assume 100% of capital is deployed, no airdrop burn budget
         return calculate_expected_value(pool, self.capital, self.EV_HORIZON_DAYS, friction=0.01, momentum_score=momentum_score)
 
+    def ensure_allowance(self, asset_address: str, spender_address: str, amount_wei: int):
+        """
+        Master Execution: Never guess allowance. Always check on-chain.
+        """
+        if not self.tx_manager: return
+        contract = self.w3.eth.contract(address=asset_address, abi=ERC20_ABI)
+        current_allowance = contract.functions.allowance(self.wallet, spender_address).call()
+        
+        if current_allowance < amount_wei:
+            logger.info(f"🔓 [ALLOWANCE] Approving {spender_address} to spend USDC...")
+            # Max approve to save gas in the future
+            max_uint = int("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", 16)
+            tx_data = self.engine.get_tx_data("aave-v3", "APPROVE", {"asset": asset_address, "spender": spender_address, "amount": max_uint})
+            
+            tx_hash = self.tx_manager.send_transaction({
+                "to": tx_data.to,
+                "data": tx_data.data,
+                "gas": 100000
+            })
+            logger.info(f"⏳ Waiting for Approve tx {tx_hash}...")
+            self.tx_manager.wait_for_receipt(tx_hash)
+            logger.info("✅ Approve confirmed on-chain.")
+
     def execute_onchain_trade(self, pool, action: str):
         """
         The True Master Execution Logic.
-        Converts decisions into signed transactions via the Adapter Engine.
+        Validates Real Balance, Checks Allowance, Computes Slippage, and Executes.
         """
         if not self.tx_manager:
             logger.info(f"🔧 [DRY-RUN EXECUTION] {action} ${self.capital:.2f} on {pool.project} ({pool.chain}).")
@@ -116,26 +145,53 @@ class SevenDayPredator:
         logger.info(f"⚡ [LIVE EXECUTION] Sending {action} request to {pool.project}...")
         
         try:
-            # Simulasi USDC Token address di berbagai chain (mock)
-            asset_address = Web3.to_checksum_address("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48")
-            amount_wei = int(self.capital * 10**6) # assuming 6 decimals for USDC
+            asset_address = Web3.to_checksum_address("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48") # USDC
             
+            # Master Rule 1: NO HALLUCINATIONS. Check real on-chain balance.
+            contract = self.w3.eth.contract(address=asset_address, abi=ERC20_ABI)
+            real_balance_wei = contract.functions.balanceOf(self.wallet).call()
+            
+            if action == "DEPOSIT":
+                amount_wei = real_balance_wei
+                if amount_wei == 0:
+                    logger.warning("⚠️ Real USDC balance is 0. Cannot execute.")
+                    return None
+            else:
+                amount_wei = real_balance_wei
+                
+            # Update internal state to match blockchain truth
+            self.capital = amount_wei / 10**6
+
             tx_data = None
             if "aave" in pool.project.lower():
+                adapter = self.engine.adapters.get("aave-v3")
+                if action == "DEPOSIT":
+                    # Master Rule 2: Ensure Allowance
+                    self.ensure_allowance(asset_address, adapter.pool_address, amount_wei)
                 tx_data = self.engine.get_tx_data("aave-v3", action, {"asset": asset_address, "amount": amount_wei})
+                
             elif "uniswap" in pool.project.lower() and action == "DEPOSIT":
-                # Kalo DEX CLMM, deposit = swap token
+                adapter = self.engine.adapters.get("uniswap-v3")
+                # Master Rule 2: Ensure Allowance
+                self.ensure_allowance(asset_address, adapter.ROUTER_ADDRESS, amount_wei)
+                
+                # Master Rule 3: Anti-MEV Slippage Protection
+                # Assuming rough oracle price: 1 ETH = $3000 USDC. 
+                # (Real implementation calls Chainlink/Quoter)
+                expected_weth = amount_wei / 3000
+                # 0.5% Slippage limit (Strict Mode)
+                min_amount_out = int(expected_weth * 0.995 * 10**12) # 18 dec WETH vs 6 dec USDC
+                
                 tx_data = self.engine.get_tx_data("uniswap-v3", "SWAP", {
                     "token_in": asset_address,
-                    "token_out": Web3.to_checksum_address("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+                    "token_out": Web3.to_checksum_address("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"), # WETH
                     "amount_in": amount_wei,
-                    "min_amount_out": 0,
+                    "min_amount_out": min_amount_out,
                     "recipient": self.wallet
                 })
             
             if tx_data:
-                # Patch for Anvil / local testing compatibility if needed
-                # (For demonstration we just try to send the raw encoded data)
+                # Execution with Gas Logic
                 tx_hash = self.tx_manager.send_transaction({
                     "to": tx_data.to,
                     "data": tx_data.data,
