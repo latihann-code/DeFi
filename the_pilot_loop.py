@@ -4,6 +4,7 @@ import json
 import logging
 from datetime import datetime
 from dotenv import load_dotenv
+from web3 import Web3
 from defi_agent.ingestion.defillama import DefiLlamaClient
 from defi_agent.ingestion.scanner import MultiChainScanner
 from defi_agent.memory import DatabaseManager
@@ -13,6 +14,10 @@ from defi_agent.ingestion.arbitrage import ArbitrageObserver
 from defi_agent.ingestion.sniper import LiquidationObserver
 from defi_agent.brain.looper import YieldLooperSimulator
 from defi_agent.ingestion.alpha_scanner import AlphaDiscoveryScanner
+from defi_agent.execution.manager import TransactionManager
+from defi_agent.execution.engine import AdapterEngine
+from defi_agent.execution.adapters.aave_v3 import AaveV3Adapter
+from defi_agent.execution.adapters.uniswap_v3 import UniswapV3Adapter
 
 # Setup Logging
 logging.basicConfig(
@@ -35,6 +40,27 @@ class SevenDayPredator:
         self.sniper = LiquidationObserver()
         self.looper = YieldLooperSimulator()
         self.alpha_discovery = AlphaDiscoveryScanner()
+        
+        # Modules - EXECUTION (Real Master Connection)
+        self.w3 = Web3(Web3.HTTPProvider(os.getenv("RPC_URL", "http://127.0.0.1:8545")))
+        wallet_env = os.getenv("WALLET_ADDRESS", "0x0000000000000000000000000000000000000000")
+        if Web3.is_address(wallet_env):
+            self.wallet = Web3.to_checksum_address(wallet_env)
+        else:
+            self.wallet = Web3.to_checksum_address("0x0000000000000000000000000000000000000000")
+            
+        self.private_key = os.getenv("PRIVATE_KEY")
+        
+        self.engine = AdapterEngine()
+        self.engine.register_adapter("aave-v3", AaveV3Adapter())
+        self.engine.register_adapter("uniswap-v3", UniswapV3Adapter())
+        
+        if self.private_key and self.w3.is_connected():
+            self.tx_manager = TransactionManager(self.w3, self.private_key, self.wallet)
+            logger.info("🔌 [ON-CHAIN] Connected to RPC. Transaction Manager is ONLINE.")
+        else:
+            self.tx_manager = None
+            logger.warning("⚠️ [DRY-RUN] RPC disconnected or missing keys. Simulating execution.")
         
         # Load State or Default
         self.load_state()
@@ -68,7 +94,8 @@ class SevenDayPredator:
                 json.dump({
                     "capital": self.capital,
                     "current_chain": self.current_chain,
-                    "last_update": datetime.now().isoformat()
+                    "last_update": datetime.now().isoformat(),
+                    "current_pool": self.current_pool.project if self.current_pool else None
                 }, f)
         except Exception as e:
             logger.error(f"Failed to save state: {e}")
@@ -76,6 +103,65 @@ class SevenDayPredator:
     def calculate_ev(self, pool, momentum_score=0.0):
         # We assume 100% of capital is deployed, no airdrop burn budget
         return calculate_expected_value(pool, self.capital, self.EV_HORIZON_DAYS, friction=0.01, momentum_score=momentum_score)
+
+    def execute_onchain_trade(self, pool, action: str):
+        """
+        The True Master Execution Logic.
+        Converts decisions into signed transactions via the Adapter Engine.
+        """
+        if not self.tx_manager:
+            logger.info(f"🔧 [DRY-RUN EXECUTION] {action} ${self.capital:.2f} on {pool.project} ({pool.chain}).")
+            return "0x_dummy_tx_hash_dry_run"
+            
+        logger.info(f"⚡ [LIVE EXECUTION] Sending {action} request to {pool.project}...")
+        
+        try:
+            # Simulasi USDC Token address di berbagai chain (mock)
+            asset_address = Web3.to_checksum_address("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48")
+            amount_wei = int(self.capital * 10**6) # assuming 6 decimals for USDC
+            
+            tx_data = None
+            if "aave" in pool.project.lower():
+                tx_data = self.engine.get_tx_data("aave-v3", action, {"asset": asset_address, "amount": amount_wei})
+            elif "uniswap" in pool.project.lower() and action == "DEPOSIT":
+                # Kalo DEX CLMM, deposit = swap token
+                tx_data = self.engine.get_tx_data("uniswap-v3", "SWAP", {
+                    "token_in": asset_address,
+                    "token_out": Web3.to_checksum_address("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+                    "amount_in": amount_wei,
+                    "min_amount_out": 0,
+                    "recipient": self.wallet
+                })
+            
+            if tx_data:
+                # Patch for Anvil / local testing compatibility if needed
+                # (For demonstration we just try to send the raw encoded data)
+                tx_hash = self.tx_manager.send_transaction({
+                    "to": tx_data.to,
+                    "data": tx_data.data,
+                    "gas": tx_data.gas_limit or 500000
+                })
+                logger.info(f"✅ [TX SUCCESS] {action} Confirmed! Hash: {tx_hash}")
+                
+                # Log the trade to memory
+                self.db.log_trade(
+                    protocol=pool.project,
+                    action=action,
+                    asset="USDC",
+                    amount=self.capital,
+                    tx_hash=tx_hash,
+                    status="SUCCESS",
+                    risk_score=1.0,
+                    reason=f"Wizard Engine {action} Execution"
+                )
+                return tx_hash
+            else:
+                logger.warning(f"⚠️ No active adapter for {pool.project}. Fallback to DRY-RUN.")
+                return "0x_dummy_fallback"
+                
+        except Exception as e:
+            logger.error(f"❌ [TX FAILED] Blockchain Execution Error: {e}")
+            return None
 
     def run_loop(self):
         logger.info(f"--- 🧙‍♂️ WIZARD MODE: YIELD STACKING & LOOPING (Chain: {self.current_chain} | Balance: ${self.capital:.4f}) ---")
@@ -145,7 +231,15 @@ class SevenDayPredator:
                                 self.capital -= self.BRIDGE_COST # Pay the bridge fee
                                 decision = best_global
 
-                    if decision:
+                    if decision and self.current_pool != decision:
+                        # EKSEKUSI: Pindah Posisi (Withdraw dari yang lama, Deposit ke yang baru)
+                        if self.current_pool:
+                            logger.info(f"🔄 REALLOCATING: Keluar dari {self.current_pool.project}")
+                            self.execute_onchain_trade(self.current_pool, "WITHDRAW")
+                            
+                        logger.info(f"🚀 MASUK POSISI BARU: {decision.project} di {decision.chain}")
+                        self.execute_onchain_trade(decision, "DEPOSIT")
+                        
                         self.current_pool = decision
                         self.current_chain = decision.chain.lower()
 
@@ -179,7 +273,7 @@ class SevenDayPredator:
                 print("-" * 45 + "\n")
                 
                 self.db.log_heartbeat(
-                    status="WIZARD_MODE_STACKING",
+                    status="WIZARD_MODE_LIVE",
                     heartbeat_seconds=self.SLEEP_STABLE,
                     best_opportunity=f"{self.current_pool.project if self.current_pool else 'CASH'}",
                     best_apy=self.current_pool.apy if self.current_pool else 0
@@ -196,7 +290,7 @@ class SevenDayPredator:
             return 60
 
     def start(self):
-        logger.info(f"🧙‍♂️ DEFI WIZARD MODE (Max Yield, Looping, Meta-Stacking). Balance: ${self.capital}")
+        logger.info(f"🧙‍♂️ DEFI WIZARD MODE (Max Yield, Looping, Meta-Stacking, LIVE EXECUTION). Balance: ${self.capital}")
         while True:
             try:
                 next_sleep = self.run_loop()
