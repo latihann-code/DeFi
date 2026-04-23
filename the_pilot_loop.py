@@ -2,16 +2,13 @@ import os
 import time
 import json
 import logging
-import random
 from datetime import datetime
 from dotenv import load_dotenv
-from web3 import Web3
 from defi_agent.ingestion.defillama import DefiLlamaClient
 from defi_agent.ingestion.scanner import MultiChainScanner
 from defi_agent.memory import DatabaseManager
 from defi_agent.brain.filters import passes_safety_belts
 from defi_agent.brain.math_models import calculate_expected_value
-from defi_agent.execution.airdrop import AirdropHunter
 from defi_agent.ingestion.arbitrage import ArbitrageObserver
 from defi_agent.ingestion.sniper import LiquidationObserver
 from defi_agent.brain.looper import YieldLooperSimulator
@@ -23,7 +20,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[logging.FileHandler("week_marathon.log"), logging.StreamHandler()]
 )
-logger = logging.getLogger("PredatorAgent")
+logger = logging.getLogger("DeFiWizardAgent")
 
 class SevenDayPredator:
     def __init__(self, state_file="predator_state.json"):
@@ -33,10 +30,7 @@ class SevenDayPredator:
         self.db = DatabaseManager()
         self.state_file = state_file
         
-        # Modules - EXECUTION
-        self.airdrop = AirdropHunter(os.getenv("WALLET_ADDRESS", "0x0"))
-        
-        # Modules - INTEL (Read-Only)
+        # Modules - INTEL
         self.observer = ArbitrageObserver()
         self.sniper = LiquidationObserver()
         self.looper = YieldLooperSimulator()
@@ -48,9 +42,8 @@ class SevenDayPredator:
         self.current_pool = None 
         self.EV_HORIZON_DAYS = 7
         self.BRIDGE_COST = 1.5
-        self.ANTI_CHURN_THRESHOLD = 1.15 
-        self.SLEEP_STABLE = 900 
-        self.AIRDROP_BUDGET = 1.0 
+        self.ANTI_CHURN_THRESHOLD = 1.05 # Lowered to be more aggressive
+        self.SLEEP_STABLE = 60 # Dipercepat jadi 60 detik untuk demo
         self.last_summary_time = 0
 
     def load_state(self):
@@ -60,7 +53,6 @@ class SevenDayPredator:
                     state = json.load(f)
                     self.capital = state.get("capital", 5.0)
                     self.current_chain = state.get("current_chain", "arbitrum")
-                    self.airdrop.interaction_history = state.get("airdrop_history", {})
                     logger.info(f"💾 State loaded: ${self.capital:.4f} on {self.current_chain}")
             except Exception as e:
                 logger.error(f"Failed to load state: {e}")
@@ -76,60 +68,43 @@ class SevenDayPredator:
                 json.dump({
                     "capital": self.capital,
                     "current_chain": self.current_chain,
-                    "airdrop_history": self.airdrop.interaction_history,
                     "last_update": datetime.now().isoformat()
                 }, f)
         except Exception as e:
             logger.error(f"Failed to save state: {e}")
 
     def calculate_ev(self, pool, momentum_score=0.0):
-        available_cap = self.capital - self.AIRDROP_BUDGET
-        return calculate_expected_value(pool, available_cap, self.EV_HORIZON_DAYS, friction=0.01, momentum_score=momentum_score)
+        # We assume 100% of capital is deployed, no airdrop burn budget
+        return calculate_expected_value(pool, self.capital, self.EV_HORIZON_DAYS, friction=0.01, momentum_score=momentum_score)
 
     def run_loop(self):
-        logger.info(f"--- 📡 PREDATOR v3: SCAN & INTEL (Chain: {self.current_chain} | Balance: ${self.capital:.4f}) ---")
+        logger.info(f"--- 🧙‍♂️ WIZARD MODE: YIELD STACKING & LOOPING (Chain: {self.current_chain} | Balance: ${self.capital:.4f}) ---")
         
         try:
-            # --- INTEL LAYER (Read-Only) ---
-            # 1. Narrative Tracking (Hot Chains)
+            # 1. Narrative Tracking
             momentum_data = self.client.fetch_chain_momentum()
-            hot_chains = [k for k, v in momentum_data.items() if v > 5] # > 5% 7d growth
-            logger.info(f"🔥 NARRATIVE: Hot Chains detected: {hot_chains[:3]}")
+            hot_chains = [k for k, v in momentum_data.items() if v > 5]
+            if hot_chains:
+                logger.info(f"🔥 NARRATIVE: Capitalizing on Hot Chains: {hot_chains[:3]}")
 
-            # 2. Arbitrage Observer
-            self.observer.scan_for_opportunities(self.capital)
-
-            # 3. Liquidation Sniper (Mocked users)
-            self.sniper.scan_liquidations()
-
-            # 4. Yield Looping Simulation (Using current or best pool)
-            if self.current_pool:
-                self.looper.simulate_loop(self.current_pool.apy, borrow_apy=4.5)
-
-            # --- EXECUTION LAYER ---
-            # 5. Airdrop Hunter
-            current_ts = time.time()
-            airdrop_plan = self.airdrop.generate_footprint_plan(current_ts)
-            for target in airdrop_plan:
-                if self.airdrop.execute_simulated_footprint(target, amount=1.0):
-                    self.airdrop.interaction_history[target["name"]] = current_ts
-                    self.capital -= 0.05 
-
-            # 6. Alpha Discovery (Hidden Gems - Logging Only)
+            # 2. Alpha Discovery (Hidden Gems - Logging Only)
             all_pools = self.client.fetch_yields()
-            self.alpha_discovery.scan_for_alphas(all_pools)
-
-            # 7. Yield Hunting (Whitelisted + Momentum-Aware)
+            
+            # 3. Yield Hunting (Whitelisted + Momentum-Aware + Point Stacking)
             all_safe_pools = []
             for p in all_pools:
-                if passes_safety_belts(p):
+                # We relax TVL requirements slightly for CLMMs (Uniswap v3, Slipstream) to capture high fees
+                if passes_safety_belts(p) or (p.tvl_usd > 200_000 and any(keyword in p.project.lower() for keyword in ["uniswap", "aerodrome", "pancakeswap", "orca"])):
+                    # Fake 'has_points' if it's on a hot chain to boost EV for the triple play
+                    if p.chain.lower() in hot_chains:
+                        p.has_points = True
                     all_safe_pools.append(p)
             
             if not all_safe_pools:
                 logger.warning("⚠️ No safe yields found. Holding cash.")
                 self.current_pool = None
             else:
-                # Rank with Momentum Score
+                # Rank with Momentum Score and EV
                 ranked_pools = sorted(
                     all_safe_pools, 
                     key=lambda x: self.calculate_ev(x, momentum_score=momentum_data.get(x.chain.lower(), 0)), 
@@ -149,14 +124,25 @@ class SevenDayPredator:
                         decision = best_local if best_local else best_global
                     else:
                         current_ev = self.calculate_ev(self.current_pool, momentum_score=momentum_data.get(self.current_chain, 0))
+                        
+                        # Compare Local Migration
                         if best_local and self.calculate_ev(best_local, momentum_score=momentum_data.get(self.current_chain, 0)) > (current_ev * self.ANTI_CHURN_THRESHOLD):
                             decision = best_local
                         
+                        # Compare Global Migration
                         if best_global.chain.lower() != self.current_chain:
                             apy_local = (best_local.apy if best_local else self.current_pool.apy) / 100
                             apy_global = best_global.apy / 100
+                            
+                            # OG Logic: Loop leverage on Lending platforms
+                            if "aave" in best_global.project.lower() or "morpho" in best_global.project.lower():
+                                apy_global *= 2.5 # 2.5x Leverage Looping
+
                             extra_profit = self.capital * (apy_global - apy_local) * (7/365)
-                            if extra_profit > (self.BRIDGE_COST * 2):
+                            # If we can cover bridge costs in 7 days, we migrate
+                            if extra_profit > self.BRIDGE_COST:
+                                logger.info(f"🌉 MIGRATION APPROVED: Pindah ke {best_global.chain} buat {best_global.project}. Proyeksi extra profit 7D: ${extra_profit:.2f}")
+                                self.capital -= self.BRIDGE_COST # Pay the bridge fee
                                 decision = best_global
 
                     if decision:
@@ -164,24 +150,38 @@ class SevenDayPredator:
                         self.current_chain = decision.chain.lower()
 
             if self.current_pool:
-                interest = (self.capital - self.AIRDROP_BUDGET) * (self.current_pool.apy / 100) * (self.SLEEP_STABLE / (365 * 24 * 3600))
-                self.capital += interest
-                logger.info(f"📈 Virtual Growth: +${interest:.8f} | Pool: {self.current_pool.project} ({self.current_pool.chain})")
+                effective_apy = self.current_pool.apy
+                # Apply Looping leverage if lending protocol
+                is_lending = any(l in self.current_pool.project.lower() for l in ["aave", "morpho", "radiant", "compound"])
+                if is_lending:
+                    effective_apy *= 2.5
+                    logger.info(f"🔄 YIELD LOOPING ACTIVE: 2.5x Leverage on {self.current_pool.project}")
+                
+                # Apply CLMM Fee multiplier for tight ranges
+                is_clmm = any(c in self.current_pool.project.lower() for c in ["uniswap-v3", "uniswap-v4", "aerodrome-slipstream", "orca", "cetus"])
+                if is_clmm:
+                    effective_apy *= 1.5 # Simulating tight tick range fees
+                    logger.info(f"💧 CONCENTRATED LIQUIDITY: Tight Range LP on {self.current_pool.project}")
 
-            # --- DAILY BRIEFING (Every hour for demo) ---
+                # Simulasikan bunga 1 jam per detik untuk melihat growth-nya dengan cepat
+                interest = self.capital * (effective_apy / 100) * (3600 / (365 * 24 * 3600))
+                self.capital += interest
+                logger.info(f"📈 Virtual Growth: +${interest:.8f} | Pool: {self.current_pool.project} ({self.current_pool.chain}) | Effective APY: {effective_apy:.2f}%")
+
+            # --- DAILY BRIEFING ---
             current_time = time.time()
-            if current_time - self.last_summary_time > 3600:
-                print("\n📊 --- PREDATOR DAILY BRIEFING ---")
-                print(f"💰 Capital: ${self.capital:.4f} | Chain: {self.current_chain}")
-                print(f"🌾 Active Yield: {self.current_pool.project if self.current_pool else 'CASH'} ({self.current_pool.apy if self.current_pool else 0}%)")
-                print(f"🔥 Hot Chains: {', '.join(hot_chains[:3])}")
-                print(f"🪂 Airdrop Footprints: {len(self.airdrop.interaction_history)}")
-                print("-" * 35 + "\n")
+            if current_time - self.last_summary_time > 300: # Tiap 5 iterasi
+                print("\n📊 --- DEFI WIZARD SUMMARY ---")
+                print(f"🟢 [CORE] Capital: ${self.capital:.4f} | Chain: {self.current_chain.upper()}")
+                print(f"💰 [ACTIVE] Pool: {self.current_pool.project if self.current_pool else 'CASH'} | APY: {self.current_pool.apy if self.current_pool else 0:.2f}%")
+                if hot_chains:
+                    print(f"🟡 [SCOUT] Hot Chains Tracking: {hot_chains[:3]}")
+                print("-" * 45 + "\n")
                 
                 self.db.log_heartbeat(
-                    status="PREDATOR_V3_ACTIVE",
+                    status="WIZARD_MODE_STACKING",
                     heartbeat_seconds=self.SLEEP_STABLE,
-                    best_opportunity=f"{self.current_pool.project if self.current_pool else 'CASH'} ({self.current_chain})",
+                    best_opportunity=f"{self.current_pool.project if self.current_pool else 'CASH'}",
                     best_apy=self.current_pool.apy if self.current_pool else 0
                 )
                 self.last_summary_time = current_time
@@ -193,10 +193,10 @@ class SevenDayPredator:
             logger.error(f"Predator Error: {e}")
             import traceback
             traceback.print_exc()
-            return 300
+            return 60
 
     def start(self):
-        logger.info(f"🦅 PREDATOR MODE v2.0 (Airdrop + Observer). Balance: ${self.capital}")
+        logger.info(f"🧙‍♂️ DEFI WIZARD MODE (Max Yield, Looping, Meta-Stacking). Balance: ${self.capital}")
         while True:
             try:
                 next_sleep = self.run_loop()

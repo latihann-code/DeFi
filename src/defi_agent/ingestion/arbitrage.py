@@ -5,27 +5,35 @@ logger = logging.getLogger("ArbObserver")
 
 class ArbitrageObserver:
     def __init__(self):
-        self.pairs = ["WETH/USDC", "WBTC/USDC", "USDC/DAI"]
+        # Scout Mode: Monitor Top 10 Volume Pairs
+        self.pairs = [
+            "WETH/USDC", "WBTC/USDC", "USDC/USDT", "ETH/DAI",
+            "ARB/USDC", "OP/USDC", "LINK/USDC", "SOL/USDC",
+            "PEPE/WETH", "AERO/USDC"
+        ]
         self.dexs = ["Uniswap V3", "Aerodrome"]
 
     def fetch_mock_prices(self):
         """
-        Simulasi fetch harga dari DEX berbeda.
-        Nanti diganti pake Web3 call ke Oracle atau Router.
+        Simulasi fetch harga dari DEX berbeda dengan noise realistis.
         """
         data = {}
         for pair in self.pairs:
-            base_price = 3000.0 if "WETH" in pair else 65000.0 if "WBTC" in pair else 1.0
-            # Tambahin noise 0.1% - 0.5% buat simulasi spread
+            base_price = 3000.0 if "ETH" in pair else 65000.0 if "BTC" in pair else 1.0
+            if "ARB" in pair: base_price = 1.2
+            if "OP" in pair: base_price = 2.5
+            if "PEPE" in pair: base_price = 0.000008
+            
+            # Spread 0.1% - 0.8%
             data[pair] = {
-                "Uniswap V3": base_price * (1 + random.uniform(-0.002, 0.002)),
-                "Aerodrome": base_price * (1 + random.uniform(-0.002, 0.002))
+                "Uniswap V3": base_price * (1 + random.uniform(-0.004, 0.004)),
+                "Aerodrome": base_price * (1 + random.uniform(-0.004, 0.004))
             }
         return data
 
     def scan_for_opportunities(self, capital, gas_price_usd=0.01):
         """
-        Cek selisih harga dan hitung apakah profit setelah fee.
+        Scout Mode: Deteksi Arbitrase di Top Pairs.
         """
         prices = self.fetch_mock_prices()
         results = []
@@ -41,9 +49,10 @@ class ArbitrageObserver:
             dex_fees = capital * 0.006
             net_profit = gross_profit - dex_fees - gas_price_usd
 
-            if spread > 0.001: # Hanya log jika spread > 0.1%
-                status = "💰 PROFITABLE" if net_profit > 0 else "❌ NOISE (Loss after fees)"
-                logger.info(f"[OBSERVER] {pair} | Spread: {spread*100:.2f}% | {status} | Est. Net: ${net_profit:.4f}")
+            # Log significant signals
+            if spread > 0.005: # > 0.5% Spread
+                status = "💰 PROFITABLE" if net_profit > 0 else "❌ NOISE (Low Capital)"
+                logger.info(f"[SCOUT] {pair} | Spread: {spread*100:.2f}% | {status} | Est. Net: ${net_profit:.4f}")
                 
                 results.append({
                     "pair": pair,
