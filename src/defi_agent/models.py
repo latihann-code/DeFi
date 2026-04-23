@@ -18,6 +18,11 @@ class PoolData:
     # New metrics for Meta-Agent
     volatility_index: float = 1.0 # 1.0 = normal, >1.0 = high risk
     audit_score: float = 1.0 # 0.0 to 1.0
+    
+    # OG Meta Fields
+    volume_usd: float = 0.0
+    has_points: bool = False
+    momentum_score: float = 0.0
 
 @dataclass
 class Position:

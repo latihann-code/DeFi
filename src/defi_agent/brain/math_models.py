@@ -36,12 +36,23 @@ def calculate_risk_score(pool: PoolData) -> float:
     if vol_s == 0: return 0.0
     return base_score
 
-def calculate_expected_value(pool: PoolData, capital: float, days: int, friction: float) -> float:
+def calculate_expected_value(pool: PoolData, capital: float, days: int, friction: float, momentum_score: float = 0.0) -> float:
     risk_score = calculate_risk_score(pool)
     if risk_score <= 0: return -999999
+    
     p_success = risk_score
     p_failure = 1.0 - p_success
+    
     adj_apy = pool.apy - pool.apy_volatility_penalty - pool.inflation_discount
+    
+    # OG Meta: Controlled Point Bonus (+10% relative boost to APY if points exist, capped)
+    if pool.has_points:
+        adj_apy *= 1.10
+    
+    # OG Meta: Momentum Boost
+    if momentum_score > 0:
+        adj_apy *= (1 + min(0.20, momentum_score / 100.0)) # Max 20% boost for hot chains
+        
     profit = capital * (adj_apy / 100.0) * (days / 365.0) - friction
     loss = capital * 0.1 + friction
     return (p_success * profit) - (p_failure * loss)

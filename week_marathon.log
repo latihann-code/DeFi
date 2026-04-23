@@ -1,0 +1,1830 @@
+2026-04-22 07:27:23,292 - INFO - 🦅 MARATHON STARTED. Target: Growth over 7 days. Initial Capital: $5.0
+2026-04-22 07:27:23,293 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 07:27:23,293 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 07:27:26,056 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 07:27:26,058 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 07:53:00,703 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 07:53:00,815 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 07:54:17,933 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 07:54:17,960 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 08:09:18,147 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 08:09:18,289 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 08:09:39,447 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 08:09:39,450 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 08:24:39,591 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 08:24:39,637 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 08:24:45,016 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 08:24:45,019 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 08:39:45,125 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 08:39:45,145 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 08:39:49,799 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 08:39:49,800 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 08:54:49,906 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 08:54:49,927 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 08:54:54,498 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 08:54:54,499 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 09:09:54,605 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 09:09:54,629 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 09:10:02,845 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 09:10:02,848 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 09:25:02,953 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 09:25:02,972 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 09:25:06,904 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 09:25:06,905 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 09:40:07,017 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 09:40:07,036 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 09:40:11,075 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 09:40:11,075 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 09:55:11,178 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 09:55:11,196 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 09:55:15,151 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 09:55:15,152 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 10:10:15,244 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 10:10:15,258 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:10:18,373 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 10:10:18,374 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 10:25:18,480 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 10:25:18,508 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:25:21,542 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 10:25:21,543 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 10:40:21,647 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 10:40:21,662 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:40:24,968 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 10:40:24,968 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 10:56:27,319 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 10:56:27,336 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:56:31,702 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 10:56:31,703 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 10:59:06,563 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 10:59:06,566 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 10:59:06,567 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:59:10,637 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.94668% | TVL: $5,779,205
+2026-04-22 10:59:11,609 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 10:59:11,619 - INFO - 📈 Virtual Growth: +$0.00001277 | Balance: $5.00001277
+2026-04-22 10:59:46,567 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 10:59:46,568 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 10:59:46,568 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 10:59:52,737 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.94668% | TVL: $5,779,205
+2026-04-22 10:59:53,836 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 10:59:53,848 - INFO - 📈 Virtual Growth: +$0.00001277 | Balance: $5.00001277
+2026-04-22 11:11:31,807 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 11:11:31,822 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:11:35,172 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 11:11:35,173 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 11:14:53,996 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 11:14:54,011 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:14:57,159 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.94668% | TVL: $5,779,205
+2026-04-22 11:14:57,160 - INFO - 📈 Virtual Growth: +$0.00001277 | Balance: $5.00002553
+2026-04-22 11:26:35,480 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 11:26:35,568 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:26:46,452 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 11:26:46,465 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 11:30:54,861 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 11:30:54,870 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:31:03,104 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.75284% | TVL: $6,105,392
+2026-04-22 11:31:03,105 - INFO - 📈 Virtual Growth: +$0.00001249 | Balance: $5.00003802
+2026-04-22 11:42:58,471 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 11:42:58,488 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:43:01,361 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 11:43:01,369 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 11:46:17,550 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 11:46:17,556 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:46:23,839 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.75284% | TVL: $6,105,392
+2026-04-22 11:46:23,844 - INFO - 📈 Virtual Growth: +$0.00001249 | Balance: $5.00005051
+2026-04-22 11:58:01,392 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 11:58:01,401 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 11:58:08,874 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 11:58:08,875 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 12:01:23,889 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:01:23,903 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:01:28,179 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.75284% | TVL: $6,105,392
+2026-04-22 12:01:28,675 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 12:01:28,684 - INFO - 📈 Virtual Growth: +$0.00001249 | Balance: $5.00006300
+2026-04-22 12:13:09,019 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 12:13:09,051 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:13:11,623 - INFO - 💤 Market boring, nothing to do.
+2026-04-22 12:13:11,624 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 12:16:28,785 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:16:28,800 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:16:31,934 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.75284% | TVL: $6,105,392
+2026-04-22 12:16:31,934 - INFO - 📈 Virtual Growth: +$0.00001249 | Balance: $5.00007549
+2026-04-22 12:28:11,668 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 12:28:11,682 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:28:11,704 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:28:11,713 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 12:31:31,963 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:31:31,984 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:31:32,009 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:36:32,113 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:36:32,183 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:36:32,206 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:42:11,272 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:42:11,633 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:42:11,904 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:43:50,842 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 12:43:50,884 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:43:50,953 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:43:50,957 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 12:47:12,022 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:47:12,059 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:47:12,098 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:52:12,213 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:52:12,288 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:52:12,403 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:57:12,518 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 12:57:12,542 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:57:12,575 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:58:51,095 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 12:58:51,112 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 12:58:51,162 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 12:58:51,163 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 13:02:12,693 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:02:12,752 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:02:12,819 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:07:12,964 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:07:13,162 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:07:13,245 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:12:13,358 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:12:13,363 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:12:13,366 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:13:51,272 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 13:13:51,310 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:13:51,335 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:13:51,342 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 13:17:13,470 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:17:13,491 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:17:13,516 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:22:13,618 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:22:13,629 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:22:13,648 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:27:13,756 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:27:13,783 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:27:13,802 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:28:51,448 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 13:28:51,462 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:28:51,495 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:28:51,505 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 13:32:13,903 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:32:13,920 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:32:13,934 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:37:14,037 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:37:14,052 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:37:14,054 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:42:14,230 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:42:14,352 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:42:14,431 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:43:51,611 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 13:43:51,630 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:43:51,655 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:43:51,656 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 13:47:14,585 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:47:14,621 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:47:14,665 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:52:14,844 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:52:14,902 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:52:15,229 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:57:15,368 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 13:57:15,401 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:57:15,426 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:58:51,766 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 13:58:51,784 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 13:58:51,806 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 13:58:51,807 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 14:02:15,609 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:02:15,685 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:02:15,990 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:07:16,213 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:07:16,305 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:07:16,411 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:13:04,770 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:13:04,820 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:13:04,908 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:14:48,270 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 14:14:48,301 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:14:48,351 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:14:48,352 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 14:19:40,546 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:19:40,573 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:19:40,604 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:27:09,184 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:27:09,283 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:27:09,314 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:35:13,553 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:35:13,580 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:35:13,599 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:37:50,279 - INFO - --- 📡 Periodic Market Scan ---
+2026-04-22 14:37:50,308 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:37:50,331 - ERROR - Scan failed: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:37:50,332 - INFO - Next pulse in 15.0 minutes...
+2026-04-22 14:41:47,278 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:41:47,428 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:41:47,798 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 14:46:47,944 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 14:46:47,984 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 14:46:48,081 - ERROR - Error in loop: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/local/lib/python3.10/dist-packages/certifi/cacert.pem
+2026-04-22 15:01:34,881 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 15:01:34,884 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:01:34,884 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:01:34,970 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 15:01:34,970 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:01:34,971 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:01:47,144 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:01:47,190 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 15:01:47,192 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:01:47,192 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:01:48,922 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:01:48,961 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00001243
+2026-04-22 15:01:51,125 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:01:52,508 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:01:54,244 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:01:54,253 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00001243
+2026-04-22 15:01:54,298 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:01:54,307 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00001243
+2026-04-22 15:07:36,922 - INFO - 🦅 MARATHON RESTARTED. Current Capital: $5.0
+2026-04-22 15:07:36,924 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:07:36,925 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:07:41,076 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:07:42,513 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:07:42,523 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00001243
+2026-04-22 15:16:49,219 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:16:49,237 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:16:54,407 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:16:54,415 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:16:56,458 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:16:56,458 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00002485
+2026-04-22 15:17:00,169 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:17:00,170 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00002485
+2026-04-22 15:18:44,423 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:18:44,432 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:19:15,755 - INFO - 💾 State loaded: $5.0000 on arbitrum
+2026-04-22 15:19:15,757 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:19:15,758 - INFO - 💤 Best EV is negative. Staying in Cash.
+2026-04-22 15:19:50,706 - INFO - 💾 State loaded: $5.0000 on arbitrum
+2026-04-22 15:19:50,709 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:19:50,710 - INFO - 💤 Best EV is negative. Staying in Cash.
+2026-04-22 15:20:21,617 - INFO - 💾 State loaded: $5.0000 on arbitrum
+2026-04-22 15:20:21,620 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:20:21,621 - INFO - 🎯 INITIAL HUNT: Targeting aave on Arbitrum
+2026-04-22 15:20:21,621 - INFO - 📈 Virtual Growth: +$0.00071347 | Pool: aave (Arbitrum) | Balance: $5.00071347
+2026-04-22 15:20:23,244 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:20:23,256 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0007) ---
+2026-04-22 15:20:23,257 - INFO - 📈 Virtual Growth: +$0.00071357 | Pool: aave (Arbitrum) | Balance: $5.00142704
+2026-04-22 15:21:04,135 - INFO - 💾 State loaded: $5.0014 on arbitrum
+2026-04-22 15:21:04,145 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:21:04,146 - INFO - 🎯 INITIAL HUNT: Targeting aave on Arbitrum
+2026-04-22 15:21:04,147 - INFO - 📈 Virtual Growth: +$0.00071347 | Pool: aave (Arbitrum) | Balance: $5.00071347
+2026-04-22 15:21:05,193 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:21:05,203 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0007) ---
+2026-04-22 15:21:05,204 - INFO - Current Pool EV: 0.3716
+2026-04-22 15:21:05,204 - INFO - Best Local EV (aave): 0.3716
+2026-04-22 15:21:05,205 - INFO - 📈 Virtual Growth: +$0.00071357 | Pool: aave (Arbitrum) | Balance: $5.00142704
+2026-04-22 15:21:48,076 - INFO - 💾 State loaded: $5.0014 on arbitrum
+2026-04-22 15:21:48,079 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0000) ---
+2026-04-22 15:21:48,080 - INFO - 🎯 INITIAL HUNT: Targeting aave on Arbitrum
+2026-04-22 15:21:48,080 - INFO - 📈 Virtual Growth: +$0.00071347 | Pool: aave (Arbitrum) | Balance: $5.00071347
+2026-04-22 15:21:48,995 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 15:21:49,007 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0007) ---
+2026-04-22 15:21:49,007 - INFO - Current Pool EV: 0.3716
+2026-04-22 15:21:49,008 - INFO - Best Local EV (aave): 0.3716
+2026-04-22 15:21:49,008 - INFO - Cross-Chain Check: Global aerodrome (Base) | Extra Profit: $7.1928
+2026-04-22 15:21:49,008 - INFO - 🚀 BRUTAL BRIDGE: Moving to Base for aerodrome. Extra profit $7.19 > 2x Bridge Fee.
+2026-04-22 15:21:49,008 - INFO - 📈 Virtual Growth: +$0.01141715 | Pool: aerodrome (Base) | Balance: $5.01213062
+2026-04-22 15:21:49,010 - INFO - --- 📡 PREDATOR SCAN (Current: base | Balance: $5.0121) ---
+2026-04-22 15:21:49,011 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:22:42,626 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:22:42,642 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:22:45,799 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.70747% | TVL: $6,173,759
+2026-04-22 15:22:45,800 - INFO - 📈 Virtual Growth: +$0.00001243 | Balance: $5.00002485
+2026-04-22 15:30:27,220 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-22 15:30:27,227 - INFO - 🦅 PREDATOR MODE STARTING. Capital: $5.00007549
+2026-04-22 15:30:27,227 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 15:30:27,227 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:30:30,393 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:30:41,089 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-22 15:30:41,089 - INFO - 🦅 PREDATOR MODE STARTING. Capital: $5.00007549
+2026-04-22 15:30:41,090 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 15:30:41,090 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:30:45,342 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:31:56,557 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:31:56,563 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:32:00,295 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:32:00,307 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:32:01,174 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:32:01,175 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00003718
+2026-04-22 15:32:03,497 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:32:03,497 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00003718
+2026-04-22 15:36:12,131 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-22 15:36:12,133 - INFO - 🦅 PREDATOR MODE STARTING. Capital: $5.00007549
+2026-04-22 15:36:12,133 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 15:36:12,133 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:36:18,382 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:37:46,017 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:37:46,151 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:37:50,004 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:37:50,008 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00003718
+2026-04-22 15:45:30,503 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 15:45:30,529 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:45:34,238 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:47:01,275 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:47:01,281 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:47:03,633 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:47:03,639 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:47:08,936 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:47:08,939 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00004951
+2026-04-22 15:47:22,660 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:47:22,661 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00004951
+2026-04-22 15:51:18,571 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 15:51:18,594 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:51:35,564 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 15:52:50,145 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 15:52:50,154 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 15:53:04,510 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 15:53:04,515 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00004951
+2026-04-22 16:00:34,421 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:00:34,429 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:00:38,730 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:02:09,115 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:02:09,136 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:02:12,809 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 16:02:13,957 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 16:02:13,988 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00006184
+2026-04-22 16:02:22,789 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:02:22,796 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:02:26,779 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 16:02:27,268 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 16:02:27,272 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00006184
+2026-04-22 16:06:35,748 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:06:35,763 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:06:56,673 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:08:04,641 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:08:04,655 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:08:12,989 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 16:08:13,809 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 16:08:13,831 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00006184
+2026-04-22 16:09:18,910 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-22 16:09:18,914 - INFO - 🦅 PREDATOR MODE v2.0 (Airdrop + Observer). Balance: $5.00007549
+2026-04-22 16:09:18,925 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:09:18,929 - INFO - [OBSERVER] WETH/USDC | Spread: 0.16% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0318
+2026-04-22 16:09:18,930 - INFO - [OBSERVER] USDC/DAI | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0330
+2026-04-22 16:09:18,932 - INFO - 🏗️ BUILDING FOOTPRINT: LayerZero on base | Amount: $1.0
+2026-04-22 16:09:18,934 - INFO - 🏗️ BUILDING FOOTPRINT: Ambient on base | Amount: $1.0
+2026-04-22 16:09:18,943 - INFO - 🏗️ BUILDING FOOTPRINT: SyncSwap on base | Amount: $1.0
+2026-04-22 16:09:18,944 - INFO - 🏗️ BUILDING FOOTPRINT: Hyperlane on arbitrum | Amount: $1.0
+2026-04-22 16:09:18,944 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:09:24,225 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 16:15:38,923 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:15:38,943 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:15:41,796 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:17:14,138 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:17:14,163 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:17:19,126 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 16:17:19,133 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00007417
+2026-04-22 16:17:27,403 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:17:27,410 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:17:37,811 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.64059% | TVL: $6,285,917
+2026-04-22 16:17:37,812 - INFO - 📈 Virtual Growth: +$0.00001233 | Balance: $5.00007417
+2026-04-22 16:21:56,843 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:21:56,880 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:22:00,581 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:23:13,962 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:23:13,972 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:23:16,232 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:23:16,232 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00007436
+2026-04-22 16:28:26,590 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-22 16:28:26,592 - INFO - 🦅 PREDATOR MODE v2.0 (Airdrop + Observer). Balance: $5.00007549
+2026-04-22 16:28:26,593 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:28:26,593 - INFO - [OBSERVER] WETH/USDC | Spread: 0.11% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0344
+2026-04-22 16:28:26,593 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.11% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0346
+2026-04-22 16:28:26,593 - INFO - 🏗️ BUILDING FOOTPRINT: LayerZero on base | Amount: $1.0
+2026-04-22 16:28:26,593 - INFO - 🏗️ BUILDING FOOTPRINT: Ambient on base | Amount: $1.0
+2026-04-22 16:28:26,594 - INFO - 🏗️ BUILDING FOOTPRINT: SyncSwap on base | Amount: $1.0
+2026-04-22 16:28:26,594 - INFO - 🏗️ BUILDING FOOTPRINT: Hyperlane on arbitrum | Amount: $1.0
+2026-04-22 16:28:26,595 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:28:30,677 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 16:30:41,989 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:30:42,022 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:30:46,875 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:32:19,297 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:32:19,326 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:32:22,675 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:32:22,676 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00008669
+2026-04-22 16:32:37,943 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:32:37,953 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:32:41,285 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:32:41,286 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00008669
+2026-04-22 16:37:00,762 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:37:00,797 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:37:04,375 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:38:16,354 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:38:16,370 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:38:19,884 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:38:19,884 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00008688
+2026-04-22 16:43:30,906 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 16:43:30,938 - INFO - [OBSERVER] WETH/USDC | Spread: 0.20% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0293
+2026-04-22 16:43:30,942 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:43:36,134 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 16:45:47,074 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:45:47,097 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:45:50,654 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:47:22,820 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:47:22,831 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:47:26,046 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:47:26,050 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00009921
+2026-04-22 16:47:41,421 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:47:41,437 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:47:45,066 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:47:45,070 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00009921
+2026-04-22 16:52:04,563 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 16:52:04,584 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:52:09,860 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 16:53:20,033 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 16:53:20,058 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:53:25,020 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 16:53:25,021 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00009941
+2026-04-22 16:58:36,363 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 16:58:36,382 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.11% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0334
+2026-04-22 16:58:36,384 - INFO - [OBSERVER] USDC/DAI | Spread: 0.31% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0238
+2026-04-22 16:58:36,387 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 16:58:42,447 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 17:00:50,797 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:00:50,817 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:00:56,499 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:02:26,209 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:02:26,228 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:02:31,182 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 17:02:32,834 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 17:02:32,886 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00011174
+2026-04-22 17:02:45,249 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:02:45,259 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:02:50,621 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 17:02:52,006 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 17:02:52,015 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00011174
+2026-04-22 17:07:10,053 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:07:10,081 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:07:16,304 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:08:25,172 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:08:25,185 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:08:33,207 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 17:08:34,911 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 17:08:34,918 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00011193
+2026-04-22 17:13:42,636 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 17:13:42,668 - INFO - [OBSERVER] USDC/DAI | Spread: 0.20% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0293
+2026-04-22 17:13:42,673 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:13:46,519 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 17:15:56,652 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:15:56,669 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:15:59,721 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:17:33,060 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:17:33,077 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:17:38,477 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 17:17:38,487 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00012426
+2026-04-22 17:17:52,173 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:17:52,219 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:17:56,213 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.77545% | TVL: $6,058,827
+2026-04-22 17:17:56,213 - INFO - 📈 Virtual Growth: +$0.00001252 | Balance: $5.00012426
+2026-04-22 17:22:16,515 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:22:16,533 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:22:20,173 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:23:35,102 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:23:35,158 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:23:38,105 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:23:38,105 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00012407
+2026-04-22 17:28:46,710 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 17:28:46,735 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.24% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0275
+2026-04-22 17:28:46,741 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:28:50,321 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 17:30:59,909 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:30:59,929 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:31:03,111 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:32:38,684 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:32:38,712 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:32:41,877 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:32:41,877 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00013640
+2026-04-22 17:32:56,353 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:32:56,359 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:33:00,388 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:33:00,388 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00013640
+2026-04-22 17:37:20,344 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:37:20,375 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:37:24,411 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:38:38,237 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:38:38,255 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:38:41,157 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:38:41,158 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00013621
+2026-04-22 17:43:50,451 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 17:43:50,469 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.17% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0305
+2026-04-22 17:43:50,471 - INFO - [OBSERVER] USDC/DAI | Spread: 0.26% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0263
+2026-04-22 17:43:50,473 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:43:54,335 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 17:46:03,251 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:46:03,268 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:46:07,378 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:47:42,025 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:47:42,037 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:47:45,600 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:47:45,601 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00014854
+2026-04-22 17:48:00,532 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:48:00,540 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:48:04,261 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:48:04,262 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00014854
+2026-04-22 17:52:24,608 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 17:52:24,639 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:52:27,833 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 17:53:41,307 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 17:53:41,371 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:53:46,776 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 17:53:46,782 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00014836
+2026-04-22 17:58:54,541 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 17:58:54,616 - INFO - [OBSERVER] WETH/USDC | Spread: 0.29% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0251
+2026-04-22 17:58:54,623 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 17:58:59,374 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 18:01:07,445 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:01:07,460 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:01:10,394 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:02:45,758 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:02:45,765 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:02:49,370 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 18:02:50,733 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 18:02:50,789 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00016069
+2026-04-22 18:03:04,397 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:03:04,413 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:03:08,533 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 18:03:09,151 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 18:03:09,157 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00016069
+2026-04-22 18:07:28,059 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:07:28,082 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:07:30,832 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:08:46,972 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:08:47,038 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:08:51,608 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 18:08:52,776 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 18:08:52,808 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00016050
+2026-04-22 18:13:59,583 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 18:13:59,611 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.10% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0339
+2026-04-22 18:13:59,617 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:14:05,819 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 18:16:10,584 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:16:10,611 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:16:14,249 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:17:50,987 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:17:51,030 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:17:55,390 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 18:17:55,397 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00017283
+2026-04-22 18:18:09,308 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:18:09,316 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:18:13,985 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.50927% | TVL: $6,501,966
+2026-04-22 18:18:13,987 - INFO - 📈 Virtual Growth: +$0.00001214 | Balance: $5.00017283
+2026-04-22 18:22:30,984 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:22:31,011 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:22:38,043 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:23:52,997 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:23:53,024 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:23:57,528 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:23:57,529 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00017241
+2026-04-22 18:29:06,055 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 18:29:06,084 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.13% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0327
+2026-04-22 18:29:06,087 - INFO - [OBSERVER] USDC/DAI | Spread: 0.17% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0306
+2026-04-22 18:29:06,091 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:29:10,934 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 18:31:14,405 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:31:14,428 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:31:17,528 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:32:55,608 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:32:55,649 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:33:00,311 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:33:00,315 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00018474
+2026-04-22 18:33:14,168 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:33:14,180 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:33:17,506 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:33:17,507 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00018474
+2026-04-22 18:37:38,321 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:37:38,344 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:37:40,983 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:38:57,720 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:38:57,758 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:39:06,547 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:39:06,567 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00018432
+2026-04-22 18:44:11,155 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 18:44:11,177 - INFO - [OBSERVER] WETH/USDC | Spread: 0.10% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0340
+2026-04-22 18:44:11,181 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:44:14,416 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 18:46:17,742 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:46:17,815 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:46:21,365 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:48:00,544 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:48:00,583 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:48:03,892 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:48:03,893 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00019665
+2026-04-22 18:48:17,650 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:48:17,661 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:48:22,541 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:48:22,542 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00019665
+2026-04-22 18:52:41,178 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 18:52:41,207 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:52:45,766 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 18:54:06,736 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 18:54:06,759 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:54:10,635 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 18:54:10,636 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00019623
+2026-04-22 18:59:14,650 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 18:59:14,711 - INFO - [OBSERVER] USDC/DAI | Spread: 0.24% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0271
+2026-04-22 18:59:14,715 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 18:59:20,346 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 19:01:21,574 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:01:21,632 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:01:25,030 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:03:04,059 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:03:04,080 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:03:08,187 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 19:03:09,358 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 19:03:09,391 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00020856
+2026-04-22 19:03:22,696 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:03:22,707 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:03:27,634 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 19:03:28,146 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 19:03:28,154 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00020856
+2026-04-22 19:07:45,988 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:07:46,017 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:07:50,411 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:09:10,880 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:09:10,987 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:09:16,672 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 19:09:17,515 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 19:09:17,554 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00020813
+2026-04-22 19:14:20,586 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 19:14:20,626 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.24% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0271
+2026-04-22 19:14:20,630 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:14:23,810 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 19:16:25,223 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:16:25,255 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:16:29,573 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:18:09,571 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:18:09,595 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:18:13,212 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 19:18:13,212 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00022046
+2026-04-22 19:18:28,277 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:18:28,286 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:18:34,552 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 8.34556% | TVL: $6,771,959
+2026-04-22 19:18:34,553 - INFO - 📈 Virtual Growth: +$0.00001191 | Balance: $5.00022046
+2026-04-22 19:22:50,593 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:22:50,611 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:22:55,006 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:24:17,797 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:24:17,827 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:24:23,101 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:24:23,102 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00021899
+2026-04-22 19:29:24,057 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 19:29:24,141 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.17% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0307
+2026-04-22 19:29:24,143 - INFO - [OBSERVER] USDC/DAI | Spread: 0.19% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0298
+2026-04-22 19:29:24,146 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:29:28,478 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 19:31:29,733 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:31:29,766 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:31:32,631 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:33:13,348 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:33:13,359 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:33:15,717 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:33:15,719 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00023132
+2026-04-22 19:33:34,608 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:33:34,619 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:33:37,328 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:33:37,328 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00023132
+2026-04-22 19:37:55,222 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:37:55,248 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:37:57,682 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:39:23,187 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:39:23,208 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:39:25,849 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:39:25,851 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00022985
+2026-04-22 19:44:28,663 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 19:44:28,689 - INFO - [OBSERVER] WETH/USDC | Spread: 0.10% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0340
+2026-04-22 19:44:28,690 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.18% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0301
+2026-04-22 19:44:28,692 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:44:31,323 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 19:46:32,826 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:46:32,849 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:46:36,640 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:48:15,827 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:48:15,858 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:48:21,239 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:48:21,243 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00024218
+2026-04-22 19:48:37,481 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:48:37,503 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:48:41,203 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:48:41,205 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00024218
+2026-04-22 19:52:57,908 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 19:52:57,931 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:53:00,963 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 19:54:25,982 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 19:54:25,988 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:54:28,741 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 19:54:28,741 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00024071
+2026-04-22 19:59:31,477 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 19:59:31,491 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.20% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0291
+2026-04-22 19:59:31,493 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 19:59:34,363 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 20:01:36,843 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:01:36,888 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:01:39,743 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:03:21,429 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:03:21,439 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:03:24,515 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 20:03:25,851 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 20:03:25,907 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00025304
+2026-04-22 20:03:41,325 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:03:41,337 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:03:44,061 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 20:03:44,607 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 20:03:44,613 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00025304
+2026-04-22 20:08:01,172 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:08:01,225 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:08:07,782 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:09:28,901 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:09:28,919 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:09:31,703 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 20:09:32,495 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 20:09:32,553 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00025157
+2026-04-22 20:14:34,516 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 20:14:34,529 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.35% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0222
+2026-04-22 20:14:34,531 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:14:37,498 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 20:16:39,883 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:16:39,894 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:16:42,328 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:18:26,053 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:18:26,054 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:18:29,007 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 20:18:29,008 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00026390
+2026-04-22 20:18:44,667 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:18:44,672 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:18:47,741 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.60968% | TVL: $8,065,768
+2026-04-22 20:18:47,742 - INFO - 📈 Virtual Growth: +$0.00001086 | Balance: $5.00026390
+2026-04-22 20:23:08,008 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:23:08,021 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:23:10,598 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:24:32,701 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:24:32,707 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:24:35,371 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:24:35,372 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00026230
+2026-04-22 20:29:37,653 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 20:29:37,666 - INFO - [OBSERVER] WETH/USDC | Spread: 0.22% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0281
+2026-04-22 20:29:37,668 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.13% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0323
+2026-04-22 20:29:37,668 - INFO - [OBSERVER] USDC/DAI | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0320
+2026-04-22 20:29:37,671 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:29:41,050 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 20:31:42,475 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:31:42,486 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:31:45,510 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:33:29,148 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:33:29,154 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:33:31,917 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:33:31,918 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00027463
+2026-04-22 20:33:47,880 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:33:47,885 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:33:50,755 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:33:50,755 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00027463
+2026-04-22 20:38:10,793 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:38:10,822 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:38:13,674 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:39:35,507 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:39:35,521 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:39:38,447 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:39:38,448 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00027303
+2026-04-22 20:44:41,242 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 20:44:41,261 - INFO - [OBSERVER] WETH/USDC | Spread: 0.12% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0330
+2026-04-22 20:44:41,262 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.22% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0282
+2026-04-22 20:44:41,265 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:44:44,256 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 20:46:45,694 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:46:45,725 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:46:48,662 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:48:32,056 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:48:32,062 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:48:34,723 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:48:34,724 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00028536
+2026-04-22 20:48:50,886 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:48:50,897 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:48:55,277 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:48:55,278 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00028536
+2026-04-22 20:53:13,859 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 20:53:13,882 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:53:16,885 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 20:54:38,582 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 20:54:38,595 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:54:41,228 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 20:54:41,228 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00028376
+2026-04-22 20:59:44,443 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 20:59:44,464 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.17% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0304
+2026-04-22 20:59:44,466 - INFO - [OBSERVER] USDC/DAI | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0320
+2026-04-22 20:59:44,468 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 20:59:47,295 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 21:01:48,840 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:01:48,878 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:01:51,710 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:03:34,857 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:03:34,862 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:03:37,530 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 21:03:38,826 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 21:03:38,852 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00029609
+2026-04-22 21:03:55,453 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:03:55,458 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:03:58,302 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 21:03:59,009 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 21:03:59,017 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00029609
+2026-04-22 21:08:17,030 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:08:17,045 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:08:19,735 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:09:41,362 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:09:41,374 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:09:44,064 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 21:09:44,960 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 21:09:44,966 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00029449
+2026-04-22 21:14:47,435 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 21:14:47,442 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.16% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0313
+2026-04-22 21:14:47,446 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:14:50,090 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 21:16:51,873 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:16:51,904 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:16:55,147 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:18:39,003 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:18:39,012 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:18:41,900 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 21:18:41,901 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00030682
+2026-04-22 21:18:59,153 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:18:59,159 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:19:01,769 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.51885% | TVL: $8,287,896
+2026-04-22 21:19:01,770 - INFO - 📈 Virtual Growth: +$0.00001073 | Balance: $5.00030682
+2026-04-22 21:23:19,934 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:23:19,975 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:23:22,819 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:24:45,101 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:24:45,113 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:24:47,868 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:24:47,869 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00030502
+2026-04-22 21:29:50,285 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 21:29:50,310 - INFO - [OBSERVER] WETH/USDC | Spread: 0.22% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0281
+2026-04-22 21:29:50,311 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.12% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0328
+2026-04-22 21:29:50,313 - INFO - [OBSERVER] USDC/DAI | Spread: 0.23% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0276
+2026-04-22 21:29:50,315 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:29:52,995 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 21:31:55,314 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:31:55,326 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:31:57,954 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:33:42,040 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:33:42,054 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:33:46,807 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:33:46,808 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00031735
+2026-04-22 21:34:01,906 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:34:01,919 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:34:04,548 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:34:04,548 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00031735
+2026-04-22 21:38:22,935 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:38:22,953 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:38:25,950 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:39:48,006 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:39:48,019 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:39:50,833 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:39:50,834 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00031555
+2026-04-22 21:44:53,192 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 21:44:53,222 - INFO - [OBSERVER] WETH/USDC | Spread: 0.16% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0313
+2026-04-22 21:44:53,223 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.19% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0297
+2026-04-22 21:44:53,225 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:44:56,109 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 21:46:58,092 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:46:58,105 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:47:00,740 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:48:46,937 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:48:46,952 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:48:49,622 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:48:49,623 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00032788
+2026-04-22 21:49:04,682 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:49:04,689 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:49:07,601 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:49:07,601 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00032788
+2026-04-22 21:53:26,148 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 21:53:26,177 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:53:29,194 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 21:54:50,963 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 21:54:50,972 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:54:53,587 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 21:54:53,589 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00032608
+2026-04-22 21:59:56,257 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 21:59:56,264 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 21:59:58,991 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 22:02:00,882 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:02:00,895 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:02:04,076 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:03:49,801 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:03:49,828 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:03:52,783 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 22:03:54,139 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 22:03:54,170 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00033841
+2026-04-22 22:04:07,737 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:04:07,743 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:04:10,367 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 22:04:10,881 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 22:04:10,886 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00033841
+2026-04-22 22:08:29,341 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:08:29,355 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:08:32,096 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:09:53,722 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:09:53,729 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:09:56,726 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 22:09:57,546 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 22:09:57,553 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00033661
+2026-04-22 22:14:59,155 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 22:14:59,168 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0321
+2026-04-22 22:14:59,171 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:15:02,015 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 22:17:04,252 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:17:04,277 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:17:07,032 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:18:54,315 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:18:54,328 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:18:56,992 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 22:18:56,993 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00034894
+2026-04-22 22:19:11,022 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:19:11,030 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:19:14,166 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.37953% | TVL: $8,458,695
+2026-04-22 22:19:14,166 - INFO - 📈 Virtual Growth: +$0.00001053 | Balance: $5.00034894
+2026-04-22 22:23:32,306 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:23:32,342 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:23:35,239 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:24:57,691 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:24:57,704 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:25:00,528 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:25:00,529 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00034703
+2026-04-22 22:30:02,161 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 22:30:02,173 - INFO - [OBSERVER] WETH/USDC | Spread: 0.26% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0261
+2026-04-22 22:30:02,174 - INFO - [OBSERVER] USDC/DAI | Spread: 0.30% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0244
+2026-04-22 22:30:02,175 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:30:04,838 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 22:32:07,177 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:32:07,191 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:32:09,921 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:33:57,130 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:33:57,136 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:34:00,299 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:34:00,300 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00035936
+2026-04-22 22:34:14,302 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:34:14,308 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:34:16,906 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:34:16,907 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00035936
+2026-04-22 22:38:35,383 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:38:35,385 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:38:38,105 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:40:00,662 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:40:00,669 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:40:03,114 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:40:03,115 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00035744
+2026-04-22 22:45:04,982 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 22:45:04,989 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.15% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0315
+2026-04-22 22:45:04,990 - INFO - [OBSERVER] USDC/DAI | Spread: 0.15% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0315
+2026-04-22 22:45:04,991 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:45:09,331 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 22:48:14,835 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 22:48:14,861 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:48:17,680 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 22:58:41,723 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:58:41,746 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:58:44,719 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:58:44,721 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00036977
+2026-04-22 22:58:58,315 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 22:58:58,327 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 22:59:01,308 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 22:59:01,309 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00036977
+2026-04-22 23:04:10,424 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:04:10,464 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:04:13,655 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:05:35,427 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:05:35,435 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:05:39,206 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 23:05:39,211 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00036786
+2026-04-22 23:10:41,509 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 23:10:41,531 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.16% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0311
+2026-04-22 23:10:41,533 - INFO - [OBSERVER] USDC/DAI | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0322
+2026-04-22 23:10:41,538 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:10:44,406 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 23:12:44,995 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:12:45,016 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:12:47,897 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:14:35,568 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:14:35,586 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:14:38,367 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 23:14:39,554 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 23:14:39,606 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00038019
+2026-04-22 23:14:52,177 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:14:52,184 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:14:54,953 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 23:14:55,875 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 23:14:55,881 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00038019
+2026-04-22 23:19:13,852 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:19:13,886 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:19:16,744 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:20:39,294 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:20:39,307 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:20:42,157 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.29795% | TVL: $8,604,857
+2026-04-22 23:20:42,942 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-22 23:20:42,976 - INFO - 📈 Virtual Growth: +$0.00001041 | Balance: $5.00037827
+2026-04-22 23:25:44,554 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 23:25:44,581 - INFO - [OBSERVER] WETH/USDC | Spread: 0.20% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0292
+2026-04-22 23:25:44,582 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.12% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0330
+2026-04-22 23:25:44,584 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:25:47,429 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 23:27:48,035 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:27:48,044 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:27:50,744 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:29:39,750 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:29:39,756 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:29:42,464 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:29:42,464 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00039055
+2026-04-22 23:29:56,018 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:29:56,031 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:29:58,755 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:29:58,756 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00039055
+2026-04-22 23:34:16,922 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:34:16,947 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:34:19,851 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:35:43,122 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:35:43,156 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:35:46,314 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:35:46,315 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00038863
+2026-04-22 23:40:47,616 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 23:40:47,642 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.21% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0288
+2026-04-22 23:40:47,643 - INFO - [OBSERVER] USDC/DAI | Spread: 0.13% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0324
+2026-04-22 23:40:47,645 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:40:51,768 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-22 23:42:50,891 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:42:50,914 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:42:54,109 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:44:42,594 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:44:42,602 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:44:45,483 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:44:45,486 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00040091
+2026-04-22 23:44:58,886 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:44:58,892 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:45:01,819 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:45:01,819 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00040091
+2026-04-22 23:49:20,048 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-22 23:49:20,077 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:49:23,124 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-22 23:50:46,456 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-22 23:50:46,469 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:50:49,167 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-22 23:50:49,168 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00039899
+2026-04-22 23:59:11,583 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-22 23:59:11,620 - INFO - [OBSERVER] WETH/USDC | Spread: 0.33% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0228
+2026-04-22 23:59:11,621 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.21% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0286
+2026-04-22 23:59:11,625 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-22 23:59:14,460 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 00:01:13,652 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:01:13,681 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:01:16,370 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:03:05,195 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:03:05,239 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:03:08,593 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-23 00:03:08,594 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00041127
+2026-04-23 00:03:21,421 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:03:21,429 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:03:24,473 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-23 00:03:24,473 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00041127
+2026-04-23 00:07:42,802 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:07:42,837 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:07:46,037 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:09:08,783 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:09:08,805 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:09:11,532 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-23 00:09:11,533 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00040936
+2026-04-23 00:14:14,604 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 00:14:14,616 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.23% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0280
+2026-04-23 00:14:14,619 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:14:17,993 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 00:16:16,515 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:16:16,528 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:16:19,200 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:18:08,738 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:18:08,746 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:18:11,523 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-23 00:18:12,723 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 00:18:12,775 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00042163
+2026-04-23 00:18:24,607 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:18:24,613 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:18:27,283 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.26092% | TVL: $8,668,091
+2026-04-23 00:18:27,628 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 00:18:27,636 - INFO - 📈 Virtual Growth: +$0.00001036 | Balance: $5.00042163
+2026-04-23 00:22:46,185 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:22:46,199 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:22:49,441 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:24:11,665 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:24:11,679 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:24:14,344 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:24:15,578 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 00:24:15,586 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00041974
+2026-04-23 00:29:18,150 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 00:29:18,171 - INFO - [OBSERVER] WETH/USDC | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0321
+2026-04-23 00:29:18,172 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.19% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0298
+2026-04-23 00:29:18,173 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:29:20,934 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 00:31:19,370 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:31:19,385 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:31:22,025 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:33:12,924 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:33:12,930 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:33:15,659 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:33:15,660 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00043202
+2026-04-23 00:33:27,774 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:33:27,780 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:33:30,503 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:33:30,504 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00043202
+2026-04-23 00:37:49,651 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:37:49,684 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:37:52,648 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:39:15,722 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:39:15,745 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:39:19,598 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:39:19,598 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00043013
+2026-04-23 00:44:21,098 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 00:44:21,109 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.19% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0298
+2026-04-23 00:44:21,115 - INFO - [OBSERVER] USDC/DAI | Spread: 0.10% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0338
+2026-04-23 00:44:21,117 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:44:24,115 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 00:46:22,172 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:46:22,186 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:46:24,848 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:48:15,795 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:48:15,803 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:48:18,503 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:48:18,503 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00044241
+2026-04-23 00:48:30,639 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:48:30,645 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:48:34,474 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:48:34,480 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00044241
+2026-04-23 00:52:52,821 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 00:52:52,834 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:52:55,797 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 00:56:04,512 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 00:56:04,549 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 00:56:07,450 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 00:56:07,451 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00044052
+2026-04-23 01:04:39,457 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 01:04:39,484 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.23% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0279
+2026-04-23 01:04:39,486 - INFO - [OBSERVER] USDC/DAI | Spread: 0.26% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0265
+2026-04-23 01:04:39,489 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:04:42,739 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 01:07:49,636 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:07:49,691 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:07:53,774 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:09:43,320 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:09:43,343 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:09:46,054 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 01:09:46,056 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00045280
+2026-04-23 01:09:59,376 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:09:59,389 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:10:02,489 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 01:10:02,489 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00045280
+2026-04-23 01:14:20,774 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:14:20,802 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:14:23,887 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:15:47,572 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:15:47,596 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:15:50,467 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.27989% | TVL: $8,633,604
+2026-04-23 01:15:50,470 - INFO - 📈 Virtual Growth: +$0.00001039 | Balance: $5.00045091
+2026-04-23 01:20:52,388 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 01:20:52,412 - INFO - [OBSERVER] WETH/USDC | Spread: 0.15% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0315
+2026-04-23 01:20:52,413 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0320
+2026-04-23 01:20:52,415 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:20:56,833 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 01:22:53,947 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:22:53,963 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:22:57,160 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:24:46,190 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:24:46,203 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:24:49,018 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:24:50,854 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 01:24:50,904 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00046324
+2026-04-23 01:25:02,622 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:25:02,628 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:25:05,447 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:25:06,075 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 01:25:06,083 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00046324
+2026-04-23 01:29:24,033 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:29:24,046 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:29:26,870 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:30:50,613 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:30:50,627 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:30:53,477 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:30:54,364 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 01:30:54,369 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00046135
+2026-04-23 01:35:57,006 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 01:35:57,025 - INFO - [OBSERVER] WETH/USDC | Spread: 0.12% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0331
+2026-04-23 01:35:57,027 - INFO - [OBSERVER] USDC/DAI | Spread: 0.28% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0254
+2026-04-23 01:35:57,028 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:35:59,852 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 01:37:57,298 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:37:57,311 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:37:59,966 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:39:51,049 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:39:51,055 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:39:54,421 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:39:54,426 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00047367
+2026-04-23 01:40:06,214 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:40:06,221 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:40:09,461 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:40:09,462 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00047367
+2026-04-23 01:44:27,083 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:44:27,143 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:44:30,253 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:45:54,504 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:45:54,514 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:45:57,393 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:45:57,393 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00047178
+2026-04-23 01:50:59,995 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 01:51:00,008 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:51:03,179 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 01:53:00,017 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:53:00,032 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:53:02,632 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 01:54:54,570 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:54:54,575 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:54:57,181 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:54:57,182 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00048411
+2026-04-23 01:55:09,598 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 01:55:09,604 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:55:12,298 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 01:55:12,298 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00048411
+2026-04-23 01:59:30,451 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 01:59:30,475 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 01:59:33,772 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:00:57,526 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:00:57,550 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:01:00,771 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 02:01:00,773 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00048222
+2026-04-23 02:06:03,388 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 02:06:03,411 - INFO - [OBSERVER] WETH/USDC | Spread: 0.20% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0292
+2026-04-23 02:06:03,413 - INFO - [OBSERVER] USDC/DAI | Spread: 0.19% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0295
+2026-04-23 02:06:03,417 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:06:06,357 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 02:08:02,771 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:08:02,786 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:08:05,475 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:09:57,316 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:09:57,328 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:10:00,437 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 02:10:00,438 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00049455
+2026-04-23 02:10:12,433 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:10:12,438 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:10:15,358 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 02:10:15,359 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00049455
+2026-04-23 02:14:33,954 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:14:33,982 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:14:36,995 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:16:00,915 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:16:00,928 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:16:03,553 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 7.3133% | TVL: $8,573,816
+2026-04-23 02:16:03,553 - INFO - 📈 Virtual Growth: +$0.00001044 | Balance: $5.00049266
+2026-04-23 02:21:06,613 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 02:21:06,895 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:21:10,698 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 02:23:05,619 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:23:05,633 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:23:08,620 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:25:00,573 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:25:00,586 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:25:03,904 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:25:05,815 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 02:25:05,866 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00050388
+2026-04-23 02:25:15,493 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:25:15,498 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:25:18,152 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:25:18,721 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 02:25:18,728 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00050388
+2026-04-23 02:29:37,161 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:29:37,184 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:29:40,412 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:31:03,689 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:31:03,703 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:31:06,914 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:31:08,041 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 02:31:08,105 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00050199
+2026-04-23 02:36:10,908 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 02:36:10,944 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:36:14,309 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 02:38:08,665 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:38:08,680 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:38:11,604 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:40:06,058 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:40:06,099 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:40:08,946 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:40:08,947 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00051321
+2026-04-23 02:40:18,866 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:40:18,872 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:40:21,771 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:40:21,771 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00051321
+2026-04-23 02:44:40,612 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:44:40,640 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:44:43,786 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:46:08,270 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:46:08,283 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:46:11,624 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:46:11,625 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00051132
+2026-04-23 02:51:14,504 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 02:51:14,535 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:51:17,604 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 02:53:11,742 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:53:11,756 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:53:14,523 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 02:55:09,080 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:55:09,093 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:55:11,852 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:55:11,852 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00052254
+2026-04-23 02:55:21,906 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 02:55:21,911 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:55:25,042 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 02:55:25,042 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00052254
+2026-04-23 02:59:43,932 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 02:59:43,945 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 02:59:46,876 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:01:11,806 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:01:11,849 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:01:15,053 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:01:15,053 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00052065
+2026-04-23 03:06:17,803 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 03:06:17,828 - INFO - [OBSERVER] WETH/USDC | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0319
+2026-04-23 03:06:17,829 - INFO - [OBSERVER] USDC/DAI | Spread: 0.14% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0323
+2026-04-23 03:06:17,831 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:06:21,081 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 03:08:14,696 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:08:14,719 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:08:17,633 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:10:11,986 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:10:11,999 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:10:14,783 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:10:14,785 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00053187
+2026-04-23 03:10:25,178 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:10:25,184 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:10:28,158 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:10:28,159 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00053187
+2026-04-23 03:14:47,041 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:14:47,056 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:14:50,076 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:16:15,186 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:16:15,201 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:16:18,338 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:16:18,339 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00052998
+2026-04-23 03:21:21,284 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 03:21:21,313 - INFO - [OBSERVER] WETH/USDC | Spread: 0.15% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0315
+2026-04-23 03:21:21,316 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.29% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0250
+2026-04-23 03:21:21,321 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:21:24,663 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 03:23:17,778 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:23:17,793 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:23:21,798 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:25:14,923 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:25:14,929 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:25:17,703 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:25:19,083 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 03:25:19,117 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00054120
+2026-04-23 03:25:28,292 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:25:28,298 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:25:31,273 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:25:32,038 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 03:25:32,044 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00054120
+2026-04-23 03:29:50,288 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:29:50,310 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:29:53,135 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:31:18,472 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:31:18,487 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:31:21,079 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:31:22,265 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 03:31:22,291 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00053931
+2026-04-23 03:36:24,865 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 03:36:24,896 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.18% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0302
+2026-04-23 03:36:24,902 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:36:28,480 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 03:38:21,975 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:38:21,990 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:38:25,098 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:40:19,278 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:40:19,295 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:40:23,196 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:40:23,197 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00055053
+2026-04-23 03:40:32,180 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:40:32,190 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:40:37,326 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:40:37,328 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00055053
+2026-04-23 03:44:53,334 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:44:53,379 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:44:57,058 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:46:22,446 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:46:22,471 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:46:25,388 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:46:25,389 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00054864
+2026-04-23 03:51:28,669 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 03:51:28,693 - INFO - [OBSERVER] WETH/USDC | Spread: 0.33% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0229
+2026-04-23 03:51:28,694 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.24% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0274
+2026-04-23 03:51:28,697 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:51:33,453 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 03:53:25,298 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:53:25,344 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:53:29,113 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 03:55:23,373 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:55:23,425 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:55:27,872 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:55:27,873 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00055986
+2026-04-23 03:55:37,487 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 03:55:37,498 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 03:55:42,754 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 03:55:42,756 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00055986
+2026-04-23 03:59:57,250 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 03:59:57,274 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:00:02,184 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:01:25,515 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:01:25,540 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:01:31,026 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 04:01:31,027 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00055797
+2026-04-23 04:06:33,714 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 04:06:33,758 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.13% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0328
+2026-04-23 04:06:33,766 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:06:40,565 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:08:29,251 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:08:29,336 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:08:35,186 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:10:28,012 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:10:28,036 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:10:35,667 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 04:10:35,669 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00056919
+2026-04-23 04:10:42,912 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:10:42,932 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:10:50,214 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.53824% | TVL: $9,993,297
+2026-04-23 04:10:50,216 - INFO - 📈 Virtual Growth: +$0.00000933 | Balance: $5.00056919
+2026-04-23 04:15:02,384 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:15:02,421 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:15:06,531 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:16:31,223 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:16:31,257 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:17:03,981 - INFO - 💤 No Aave pools found on allowed chains. Resting.
+2026-04-23 04:21:40,963 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 04:21:40,980 - INFO - [OBSERVER] WETH/USDC | Spread: 0.22% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0283
+2026-04-23 04:21:40,982 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:21:46,423 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:23:35,282 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:23:35,308 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:23:39,161 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:26:21,445 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:26:21,532 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:26:27,231 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:26:28,484 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 04:26:28,524 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00057797
+2026-04-23 04:26:35,787 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:26:35,794 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:26:39,544 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:26:40,080 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 04:26:40,088 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00057797
+2026-04-23 04:33:53,919 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:33:53,958 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:33:58,812 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:36:27,194 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:36:27,238 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:36:30,194 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:36:31,497 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 04:36:31,520 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00056675
+2026-04-23 04:37:40,029 - INFO - 💾 State loaded: $5.0001 on arbitrum
+2026-04-23 04:37:40,032 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:37:40,032 - INFO - [OBSERVER] WETH/USDC | Spread: 0.28% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0262
+2026-04-23 04:37:40,032 - INFO - [OBSERVER] USDC/DAI | Spread: 0.17% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0314
+2026-04-23 04:37:40,032 - INFO - 🏗️ BUILDING FOOTPRINT: LayerZero on base | Amount: $1.0
+2026-04-23 04:37:40,032 - INFO - 🏗️ BUILDING FOOTPRINT: Ambient on base | Amount: $1.0
+2026-04-23 04:37:40,032 - INFO - 🏗️ BUILDING FOOTPRINT: SyncSwap on base | Amount: $1.0
+2026-04-23 04:37:40,033 - INFO - 🏗️ BUILDING FOOTPRINT: Hyperlane on arbitrum | Amount: $1.0
+2026-04-23 04:37:40,033 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:37:43,308 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:41:09,562 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 04:41:09,593 - INFO - [OBSERVER] WETH/USDC | Spread: 0.29% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0248
+2026-04-23 04:41:09,596 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.28% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0255
+2026-04-23 04:41:09,599 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:41:12,229 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:43:02,099 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:43:02,119 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:43:04,407 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:45:06,229 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:45:06,325 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:45:10,008 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:45:10,009 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00058674
+2026-04-23 04:45:17,709 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:45:17,720 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:45:21,744 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:45:21,744 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00058674
+2026-04-23 04:49:34,736 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:49:34,756 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:49:38,273 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 04:51:31,691 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 04:51:31,707 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:51:35,073 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 04:51:35,073 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00057552
+2026-04-23 04:56:12,334 - INFO - --- 📡 PREDATOR SCAN (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 04:56:12,349 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.18% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0303
+2026-04-23 04:56:12,350 - INFO - [OBSERVER] USDC/DAI | Spread: 0.23% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0280
+2026-04-23 04:56:12,353 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:56:17,522 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:56:23,343 - INFO - 💾 State loaded: $4.8001 on arbitrum
+2026-04-23 04:56:23,344 - INFO - 🦅 PREDATOR MODE v2.0 (Airdrop + Observer). Balance: $4.800075490000001
+2026-04-23 04:56:23,345 - INFO - --- 📡 PREDATOR v3: SCAN & INTEL (Chain: arbitrum | Balance: $4.8001) ---
+2026-04-23 04:56:24,937 - INFO - 🔥 NARRATIVE: Hot Chains detected: []
+2026-04-23 04:56:24,939 - INFO - [OBSERVER] WETH/USDC | Spread: 0.26% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0265
+2026-04-23 04:56:24,940 - INFO - [OBSERVER] WBTC/USDC | Spread: 0.21% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0289
+2026-04-23 04:56:24,940 - INFO - [OBSERVER] USDC/DAI | Spread: 0.18% | ❌ NOISE (Loss after fees) | Est. Net: $-0.0300
+2026-04-23 04:56:24,940 - INFO - 🎯 [SNIPER] Liquidation Op: User 0x789...ghi | HF: 0.984 | Est. Profit: $50.0
+2026-04-23 04:56:27,790 - INFO - 💎 [ALPHA] Found: blackhole-clmm (Avalanche) | APY: 541.2584% | TVL: $994,737
+2026-04-23 04:56:27,793 - INFO - 💎 [ALPHA] Found: morpho-blue (Arbitrum) | APY: 297995.79868% | TVL: $958,235
+2026-04-23 04:56:27,796 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 120.62687% | TVL: $921,393
+2026-04-23 04:56:27,799 - INFO - 💎 [ALPHA] Found: pancakeswap-amm-v3 (Ethereum) | APY: 160.47055% | TVL: $913,883
+2026-04-23 04:56:27,803 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 298.13141% | TVL: $837,984
+2026-04-23 04:56:27,806 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 138.30084% | TVL: $832,146
+2026-04-23 04:56:27,810 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 282.92799% | TVL: $813,430
+2026-04-23 04:56:27,814 - INFO - 💎 [ALPHA] Found: cetus-clmm (Sui) | APY: 105.49636% | TVL: $801,201
+2026-04-23 04:56:27,817 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 105.90583% | TVL: $799,305
+2026-04-23 04:56:27,819 - INFO - 💎 [ALPHA] Found: hyperion (Aptos) | APY: 136.26575% | TVL: $795,836
+2026-04-23 04:56:27,821 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 145.88432% | TVL: $784,612
+2026-04-23 04:56:27,823 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 202.35804% | TVL: $716,155
+2026-04-23 04:56:27,825 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 166.86897% | TVL: $715,762
+2026-04-23 04:56:27,826 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 21751.62578% | TVL: $715,302
+2026-04-23 04:56:27,829 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 154.84227% | TVL: $707,659
+2026-04-23 04:56:27,833 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Arbitrum) | APY: 368.51103% | TVL: $698,056
+2026-04-23 04:56:27,836 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 1582.43285% | TVL: $695,120
+2026-04-23 04:56:27,838 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 112.48197% | TVL: $689,426
+2026-04-23 04:56:27,841 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 202.83068% | TVL: $660,275
+2026-04-23 04:56:27,843 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 101.4526% | TVL: $655,239
+2026-04-23 04:56:27,846 - INFO - 💎 [ALPHA] Found: aerodrome-v1 (Base) | APY: 12850.42068% | TVL: $649,308
+2026-04-23 04:56:27,850 - INFO - 💎 [ALPHA] Found: zeebu (BSC) | APY: 767553.43815% | TVL: $620,959
+2026-04-23 04:56:27,854 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 142.33183% | TVL: $620,749
+2026-04-23 04:56:27,857 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 636.69596% | TVL: $590,309
+2026-04-23 04:56:27,861 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 819.12731% | TVL: $575,451
+2026-04-23 04:56:27,865 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 154.94357% | TVL: $567,224
+2026-04-23 04:56:27,870 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 752.49558% | TVL: $561,807
+2026-04-23 04:56:27,874 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 285.45738% | TVL: $561,188
+2026-04-23 04:56:27,877 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 104.84279% | TVL: $561,048
+2026-04-23 04:56:27,881 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 6101.50852% | TVL: $543,924
+2026-04-23 04:56:27,884 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 284.7686% | TVL: $523,903
+2026-04-23 04:56:27,887 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 230.43% | TVL: $522,046
+2026-04-23 04:56:27,891 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 110.78558% | TVL: $506,576
+2026-04-23 04:56:27,894 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 297995.79868% | TVL: $501,364
+2026-04-23 04:56:27,897 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 111.64634% | TVL: $487,328
+2026-04-23 04:56:27,900 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 1566.72023% | TVL: $474,952
+2026-04-23 04:56:27,903 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 10611.23529% | TVL: $461,706
+2026-04-23 04:56:27,906 - INFO - 💎 [ALPHA] Found: beefy (Monad) | APY: 133.23829% | TVL: $453,589
+2026-04-23 04:56:27,910 - INFO - 💎 [ALPHA] Found: blackhole-clmm (Avalanche) | APY: 272.41802% | TVL: $433,294
+2026-04-23 04:56:27,913 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 135.97456% | TVL: $427,634
+2026-04-23 04:56:27,916 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 6473.10054% | TVL: $423,502
+2026-04-23 04:56:27,920 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 239.68801% | TVL: $410,407
+2026-04-23 04:56:27,922 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 111.42% | TVL: $406,884
+2026-04-23 04:56:27,924 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 117.05821% | TVL: $404,789
+2026-04-23 04:56:27,928 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 666.21097% | TVL: $397,611
+2026-04-23 04:56:27,931 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Base) | APY: 165.67329% | TVL: $395,130
+2026-04-23 04:56:27,935 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 149.81809% | TVL: $392,984
+2026-04-23 04:56:27,938 - INFO - 💎 [ALPHA] Found: yearn-finance (Katana) | APY: 129.23803% | TVL: $380,554
+2026-04-23 04:56:27,942 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 123.18935% | TVL: $378,435
+2026-04-23 04:56:27,945 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 660.73507% | TVL: $377,861
+2026-04-23 04:56:27,949 - INFO - 💎 [ALPHA] Found: beefy (Arbitrum) | APY: 160.87975% | TVL: $370,749
+2026-04-23 04:56:27,952 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 122.85185% | TVL: $366,847
+2026-04-23 04:56:27,958 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 1239.60074% | TVL: $364,930
+2026-04-23 04:56:27,961 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 969.97887% | TVL: $359,831
+2026-04-23 04:56:27,964 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 106.67942% | TVL: $358,027
+2026-04-23 04:56:27,967 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 472.90948% | TVL: $354,559
+2026-04-23 04:56:27,969 - INFO - 💎 [ALPHA] Found: hyperswap-v3 (Hyperliquid L1) | APY: 101.53875% | TVL: $351,255
+2026-04-23 04:56:27,973 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 4271.96723% | TVL: $346,099
+2026-04-23 04:56:27,976 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 20431.86104% | TVL: $343,068
+2026-04-23 04:56:27,980 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 539.47343% | TVL: $338,938
+2026-04-23 04:56:27,984 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 140.79495% | TVL: $330,459
+2026-04-23 04:56:27,986 - INFO - 💎 [ALPHA] Found: bluefin-spot (Sui) | APY: 116.8196% | TVL: $324,962
+2026-04-23 04:56:27,989 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 12567.89432% | TVL: $312,484
+2026-04-23 04:56:27,992 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 325.7969% | TVL: $307,843
+2026-04-23 04:56:27,995 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 174.23541% | TVL: $301,073
+2026-04-23 04:56:27,997 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Arbitrum) | APY: 107.0096% | TVL: $292,294
+2026-04-23 04:56:28,001 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 119.33738% | TVL: $290,284
+2026-04-23 04:56:28,004 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 176.01964% | TVL: $287,214
+2026-04-23 04:56:28,008 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 199.38288% | TVL: $286,957
+2026-04-23 04:56:28,014 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 115.99964% | TVL: $286,491
+2026-04-23 04:56:28,018 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 28275.03697% | TVL: $286,049
+2026-04-23 04:56:28,022 - INFO - 💎 [ALPHA] Found: uniswap-v4 (OP Mainnet) | APY: 156.6858% | TVL: $282,065
+2026-04-23 04:56:28,024 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 147.01% | TVL: $280,584
+2026-04-23 04:56:28,026 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Arbitrum) | APY: 544.87704% | TVL: $278,152
+2026-04-23 04:56:28,029 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 297995.53795% | TVL: $278,110
+2026-04-23 04:56:28,033 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 213.9194% | TVL: $277,489
+2026-04-23 04:56:28,042 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 137.89994% | TVL: $275,371
+2026-04-23 04:56:28,047 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 4101.49713% | TVL: $273,818
+2026-04-23 04:56:28,050 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 231.82042% | TVL: $267,575
+2026-04-23 04:56:28,052 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 173.04433% | TVL: $267,251
+2026-04-23 04:56:28,055 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 26954.95445% | TVL: $266,788
+2026-04-23 04:56:28,057 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 200.5988% | TVL: $266,498
+2026-04-23 04:56:28,062 - INFO - 💎 [ALPHA] Found: tortuga (Aptos) | APY: 433.10924% | TVL: $265,897
+2026-04-23 04:56:28,065 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 144.40399% | TVL: $259,198
+2026-04-23 04:56:28,068 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 255.88731% | TVL: $257,526
+2026-04-23 04:56:28,070 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 447.23165% | TVL: $256,555
+2026-04-23 04:56:28,072 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 117.1% | TVL: $254,794
+2026-04-23 04:56:28,075 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 179.67365% | TVL: $253,370
+2026-04-23 04:56:28,078 - INFO - 💎 [ALPHA] Found: meme-dollar (Ethereum) | APY: 148.55792% | TVL: $251,366
+2026-04-23 04:56:28,082 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 146.17% | TVL: $248,393
+2026-04-23 04:56:28,085 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 991.52623% | TVL: $244,895
+2026-04-23 04:56:28,088 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 298.13042% | TVL: $241,041
+2026-04-23 04:56:28,092 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 419.9818% | TVL: $240,055
+2026-04-23 04:56:28,096 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 118.71% | TVL: $240,047
+2026-04-23 04:56:28,099 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 290.70837% | TVL: $239,100
+2026-04-23 04:56:28,103 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 354.07873% | TVL: $238,440
+2026-04-23 04:56:28,106 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 602.3599% | TVL: $237,067
+2026-04-23 04:56:28,109 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 258.0295% | TVL: $235,895
+2026-04-23 04:56:28,112 - INFO - 💎 [ALPHA] Found: morpho-blue (Ethereum) | APY: 141.6054% | TVL: $233,924
+2026-04-23 04:56:28,115 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 149.02246% | TVL: $229,540
+2026-04-23 04:56:28,118 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 191.10305% | TVL: $228,715
+2026-04-23 04:56:28,121 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 103.78891% | TVL: $227,505
+2026-04-23 04:56:28,125 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 116.286% | TVL: $224,911
+2026-04-23 04:56:28,129 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 105.58% | TVL: $213,086
+2026-04-23 04:56:28,133 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 174.3351% | TVL: $209,205
+2026-04-23 04:56:28,135 - INFO - 💎 [ALPHA] Found: steer-protocol (Polygon) | APY: 225.15% | TVL: $208,196
+2026-04-23 04:56:28,137 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 102.06184% | TVL: $202,331
+2026-04-23 04:56:28,139 - INFO - 💎 [ALPHA] Found: uniswap-v3 (OP Mainnet) | APY: 123.05513% | TVL: $200,957
+2026-04-23 04:56:28,140 - INFO - 💎 [ALPHA] Found: beefy (Monad) | APY: 115.58845% | TVL: $200,357
+2026-04-23 04:56:28,143 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 354.30536% | TVL: $196,964
+2026-04-23 04:56:28,148 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 241.2096% | TVL: $194,364
+2026-04-23 04:56:28,152 - INFO - 💎 [ALPHA] Found: gmx-v2-perps (Arbitrum) | APY: 145.60387% | TVL: $191,851
+2026-04-23 04:56:28,155 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 348.75334% | TVL: $191,794
+2026-04-23 04:56:28,157 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 166.89% | TVL: $190,713
+2026-04-23 04:56:28,160 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 6596.58471% | TVL: $189,959
+2026-04-23 04:56:28,163 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 102.74% | TVL: $189,913
+2026-04-23 04:56:28,166 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 13939.91083% | TVL: $189,825
+2026-04-23 04:56:28,172 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 190.44401% | TVL: $189,550
+2026-04-23 04:56:28,175 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8410.30577% | TVL: $188,775
+2026-04-23 04:56:28,178 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 3651.38725% | TVL: $188,582
+2026-04-23 04:56:28,181 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 155.02726% | TVL: $184,842
+2026-04-23 04:56:28,184 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 144.43319% | TVL: $180,514
+2026-04-23 04:56:28,185 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 421.60774% | TVL: $179,472
+2026-04-23 04:56:28,187 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 203.25735% | TVL: $179,197
+2026-04-23 04:56:28,188 - INFO - 💎 [ALPHA] Found: mortgagefi (Base) | APY: 153.58% | TVL: $179,018
+2026-04-23 04:56:28,190 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 149.32278% | TVL: $176,962
+2026-04-23 04:56:28,194 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 3751.98371% | TVL: $172,951
+2026-04-23 04:56:28,196 - INFO - 💎 [ALPHA] Found: velodrome-v2 (OP Mainnet) | APY: 257.29752% | TVL: $172,740
+2026-04-23 04:56:28,200 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 3478.38086% | TVL: $172,636
+2026-04-23 04:56:28,203 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 859.28932% | TVL: $171,732
+2026-04-23 04:56:28,206 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 131.13% | TVL: $169,990
+2026-04-23 04:56:28,209 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 171.88226% | TVL: $168,810
+2026-04-23 04:56:28,213 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 213.95% | TVL: $168,384
+2026-04-23 04:56:28,216 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 267.20806% | TVL: $167,343
+2026-04-23 04:56:28,219 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 460.97574% | TVL: $166,969
+2026-04-23 04:56:28,223 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 359.78468% | TVL: $166,785
+2026-04-23 04:56:28,226 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4589.94482% | TVL: $164,535
+2026-04-23 04:56:28,229 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4229.72569% | TVL: $164,330
+2026-04-23 04:56:28,232 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 292.29957% | TVL: $163,722
+2026-04-23 04:56:28,235 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 220.9718% | TVL: $162,856
+2026-04-23 04:56:28,237 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 237.48063% | TVL: $162,414
+2026-04-23 04:56:28,241 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 10118.74434% | TVL: $162,124
+2026-04-23 04:56:28,244 - INFO - 💎 [ALPHA] Found: steer-protocol (Polygon) | APY: 161.75% | TVL: $161,731
+2026-04-23 04:56:28,249 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 618.63% | TVL: $161,644
+2026-04-23 04:56:28,253 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 116.89% | TVL: $161,637
+2026-04-23 04:56:28,257 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 105.08% | TVL: $159,705
+2026-04-23 04:56:28,261 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 589.76% | TVL: $159,305
+2026-04-23 04:56:28,266 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 291.68% | TVL: $158,478
+2026-04-23 04:56:28,271 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 596.19% | TVL: $157,770
+2026-04-23 04:56:28,275 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 198.94% | TVL: $157,587
+2026-04-23 04:56:28,280 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 204.86481% | TVL: $156,658
+2026-04-23 04:56:28,283 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 6901.29713% | TVL: $156,391
+2026-04-23 04:56:28,284 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Arbitrum) | APY: 11312.74096% | TVL: $156,340
+2026-04-23 04:56:28,286 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 284.36% | TVL: $156,221
+2026-04-23 04:56:28,287 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 302.86% | TVL: $156,171
+2026-04-23 04:56:28,289 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 132.61801% | TVL: $155,709
+2026-04-23 04:56:28,290 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 644.99% | TVL: $155,599
+2026-04-23 04:56:28,291 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 129.49% | TVL: $155,426
+2026-04-23 04:56:28,293 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 241.26% | TVL: $155,291
+2026-04-23 04:56:28,294 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 338.32% | TVL: $154,660
+2026-04-23 04:56:28,295 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 145.91617% | TVL: $153,827
+2026-04-23 04:56:28,297 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 172.51% | TVL: $153,420
+2026-04-23 04:56:28,298 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 467.62667% | TVL: $152,278
+2026-04-23 04:56:28,300 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 295.19% | TVL: $151,242
+2026-04-23 04:56:28,304 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 106.93% | TVL: $150,800
+2026-04-23 04:56:28,307 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 2982.89392% | TVL: $150,773
+2026-04-23 04:56:28,311 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 12816.64069% | TVL: $150,718
+2026-04-23 04:56:28,314 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 160.49% | TVL: $150,326
+2026-04-23 04:56:28,316 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 208.13356% | TVL: $150,062
+2026-04-23 04:56:28,318 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 10722.87394% | TVL: $150,043
+2026-04-23 04:56:28,320 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8289.98227% | TVL: $149,052
+2026-04-23 04:56:28,322 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 196.98% | TVL: $149,011
+2026-04-23 04:56:28,324 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 173.82% | TVL: $148,391
+2026-04-23 04:56:28,325 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4712.56493% | TVL: $147,848
+2026-04-23 04:56:28,328 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 265.57% | TVL: $146,583
+2026-04-23 04:56:28,330 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 9878.04883% | TVL: $146,499
+2026-04-23 04:56:28,332 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8854.58612% | TVL: $145,180
+2026-04-23 04:56:28,335 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 150.19% | TVL: $144,799
+2026-04-23 04:56:28,339 - INFO - 💎 [ALPHA] Found: etherex-cl (Linea) | APY: 198.55775% | TVL: $144,419
+2026-04-23 04:56:28,342 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 232.97% | TVL: $143,804
+2026-04-23 04:56:28,345 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 126.52% | TVL: $143,745
+2026-04-23 04:56:28,348 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 1069.91236% | TVL: $142,291
+2026-04-23 04:56:28,351 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 1038.33575% | TVL: $142,235
+2026-04-23 04:56:28,353 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8286.89251% | TVL: $142,189
+2026-04-23 04:56:28,356 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 117.11225% | TVL: $141,637
+2026-04-23 04:56:28,360 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 3745.75457% | TVL: $141,297
+2026-04-23 04:56:28,365 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 2811.71496% | TVL: $139,872
+2026-04-23 04:56:28,369 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 1257.17436% | TVL: $139,598
+2026-04-23 04:56:28,372 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 168.28333% | TVL: $138,991
+2026-04-23 04:56:28,374 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 7242.96907% | TVL: $138,660
+2026-04-23 04:56:28,376 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 3659.71887% | TVL: $137,895
+2026-04-23 04:56:28,378 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8219.64572% | TVL: $137,892
+2026-04-23 04:56:28,380 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 185.22811% | TVL: $137,469
+2026-04-23 04:56:28,382 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 230.25202% | TVL: $135,641
+2026-04-23 04:56:28,385 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 10871.36346% | TVL: $135,392
+2026-04-23 04:56:28,387 - INFO - 💎 [ALPHA] Found: joe-v2.2 (Avalanche) | APY: 142.50286% | TVL: $134,855
+2026-04-23 04:56:28,389 - INFO - 💎 [ALPHA] Found: astroport (Neutron) | APY: 103.52914% | TVL: $134,622
+2026-04-23 04:56:28,391 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4420.68899% | TVL: $133,013
+2026-04-23 04:56:28,393 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 103.12834% | TVL: $132,276
+2026-04-23 04:56:28,395 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5426.20215% | TVL: $131,717
+2026-04-23 04:56:28,398 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 119.37% | TVL: $130,605
+2026-04-23 04:56:28,400 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 1751.3039% | TVL: $130,519
+2026-04-23 04:56:28,402 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4412.55574% | TVL: $130,044
+2026-04-23 04:56:28,404 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 595.62% | TVL: $129,901
+2026-04-23 04:56:28,406 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5032.16564% | TVL: $129,500
+2026-04-23 04:56:28,409 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 9213.20192% | TVL: $129,459
+2026-04-23 04:56:28,412 - INFO - 💎 [ALPHA] Found: clober-v2 (Monad) | APY: 103.49786% | TVL: $128,797
+2026-04-23 04:56:28,416 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 7328.88393% | TVL: $128,581
+2026-04-23 04:56:28,419 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 706.22257% | TVL: $128,462
+2026-04-23 04:56:28,422 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 233.05481% | TVL: $128,021
+2026-04-23 04:56:28,424 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 155.24293% | TVL: $127,334
+2026-04-23 04:56:28,427 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 154.55784% | TVL: $126,859
+2026-04-23 04:56:28,432 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 114.37036% | TVL: $126,604
+2026-04-23 04:56:28,434 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5276.30478% | TVL: $126,318
+2026-04-23 04:56:28,437 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 101.63556% | TVL: $125,483
+2026-04-23 04:56:28,441 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 110.91736% | TVL: $125,433
+2026-04-23 04:56:28,443 - INFO - 💎 [ALPHA] Found: orca-dex (Solana) | APY: 125.23635% | TVL: $125,152
+2026-04-23 04:56:28,445 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5691.17249% | TVL: $124,532
+2026-04-23 04:56:28,448 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 1234.56003% | TVL: $124,464
+2026-04-23 04:56:28,452 - INFO - 💎 [ALPHA] Found: gmx-v2-perps (Arbitrum) | APY: 201.56201% | TVL: $123,820
+2026-04-23 04:56:28,455 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 687.38491% | TVL: $123,528
+2026-04-23 04:56:28,459 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 12898.92801% | TVL: $123,335
+2026-04-23 04:56:28,463 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 4265.20847% | TVL: $122,431
+2026-04-23 04:56:28,467 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 505.05496% | TVL: $122,100
+2026-04-23 04:56:28,471 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 156.12661% | TVL: $121,179
+2026-04-23 04:56:28,473 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 369.85147% | TVL: $120,742
+2026-04-23 04:56:28,477 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 158.28174% | TVL: $120,618
+2026-04-23 04:56:28,481 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 2025.92586% | TVL: $120,374
+2026-04-23 04:56:28,485 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 6854.34209% | TVL: $120,072
+2026-04-23 04:56:28,489 - INFO - 💎 [ALPHA] Found: cetus-clmm (Sui) | APY: 127.0318% | TVL: $120,067
+2026-04-23 04:56:28,493 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 148.77851% | TVL: $119,871
+2026-04-23 04:56:28,497 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 2247.59638% | TVL: $119,796
+2026-04-23 04:56:28,502 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 3608.08713% | TVL: $118,820
+2026-04-23 04:56:28,507 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 456.70409% | TVL: $117,924
+2026-04-23 04:56:28,509 - INFO - 💎 [ALPHA] Found: supernova-cl (Ethereum) | APY: 755.18094% | TVL: $117,279
+2026-04-23 04:56:28,511 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Arbitrum) | APY: 109.04699% | TVL: $116,413
+2026-04-23 04:56:28,513 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 125.98733% | TVL: $116,377
+2026-04-23 04:56:28,517 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 245.77101% | TVL: $115,802
+2026-04-23 04:56:28,520 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 6082.42698% | TVL: $115,445
+2026-04-23 04:56:28,524 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 140.34391% | TVL: $115,028
+2026-04-23 04:56:28,528 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 1340.4% | TVL: $114,859
+2026-04-23 04:56:28,533 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 741.69341% | TVL: $114,398
+2026-04-23 04:56:28,537 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 152.39008% | TVL: $114,157
+2026-04-23 04:56:28,540 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5246.84677% | TVL: $114,104
+2026-04-23 04:56:28,542 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 626.35194% | TVL: $113,670
+2026-04-23 04:56:28,545 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8066.29869% | TVL: $113,557
+2026-04-23 04:56:28,548 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8148.83213% | TVL: $113,315
+2026-04-23 04:56:28,552 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 100.98826% | TVL: $112,882
+2026-04-23 04:56:28,555 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 147.53165% | TVL: $112,718
+2026-04-23 04:56:28,558 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 6430.95806% | TVL: $112,593
+2026-04-23 04:56:28,561 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 301.1738% | TVL: $112,172
+2026-04-23 04:56:28,564 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 1353.68313% | TVL: $112,144
+2026-04-23 04:56:28,568 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5977.57592% | TVL: $112,080
+2026-04-23 04:56:28,571 - INFO - 💎 [ALPHA] Found: blackhole-clmm (Avalanche) | APY: 491.96781% | TVL: $111,540
+2026-04-23 04:56:28,574 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 2227.86262% | TVL: $111,061
+2026-04-23 04:56:28,576 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5078.00393% | TVL: $110,466
+2026-04-23 04:56:28,578 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 8167.34925% | TVL: $110,297
+2026-04-23 04:56:28,581 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 555.47088% | TVL: $109,103
+2026-04-23 04:56:28,583 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 5011.32962% | TVL: $109,073
+2026-04-23 04:56:28,584 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 386.98035% | TVL: $108,650
+2026-04-23 04:56:28,585 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 148.55405% | TVL: $107,501
+2026-04-23 04:56:28,588 - INFO - 💎 [ALPHA] Found: aerodrome-slipstream (Base) | APY: 5298.30563% | TVL: $106,827
+2026-04-23 04:56:28,591 - INFO - 💎 [ALPHA] Found: hyperion (Aptos) | APY: 125.77904% | TVL: $106,332
+2026-04-23 04:56:28,593 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 678.81577% | TVL: $106,184
+2026-04-23 04:56:28,594 - INFO - 💎 [ALPHA] Found: blackhole-clmm (Avalanche) | APY: 1793.38232% | TVL: $106,066
+2026-04-23 04:56:28,599 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 275.02901% | TVL: $105,184
+2026-04-23 04:56:28,603 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Ethereum) | APY: 112.37369% | TVL: $105,182
+2026-04-23 04:56:28,606 - INFO - 💎 [ALPHA] Found: gmx-v2-perps (Arbitrum) | APY: 191.39969% | TVL: $105,018
+2026-04-23 04:56:28,609 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 164.26295% | TVL: $103,544
+2026-04-23 04:56:28,613 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Base) | APY: 685.13554% | TVL: $103,347
+2026-04-23 04:56:28,616 - INFO - 💎 [ALPHA] Found: uniswap-v2 (Base) | APY: 140.39396% | TVL: $102,538
+2026-04-23 04:56:28,619 - INFO - 💎 [ALPHA] Found: uniswap-v4 (Ethereum) | APY: 181.76732% | TVL: $100,264
+2026-04-23 04:56:28,621 - INFO - 💎 [ALPHA] Found: raydium-amm (Solana) | APY: 251.41% | TVL: $100,233
+2026-04-23 04:56:28,624 - INFO - 💎 [ALPHA] Found: uniswap-v3 (Ethereum) | APY: 102.88351% | TVL: $100,141
+2026-04-23 04:56:28,673 - WARNING - ⚠️ No safe yields found. Holding cash.
+2026-04-23 04:56:30,127 - INFO - HTTP Request: POST https://gfakwogvcdawtqawqlxo.supabase.co/rest/v1/heartbeat_logs "HTTP/2 201 Created"
+2026-04-23 04:58:04,576 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 04:58:04,595 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 04:58:09,951 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 05:00:10,171 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 05:00:10,210 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 05:00:15,433 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 05:00:15,433 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00059552
+2026-04-23 05:00:21,876 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 05:00:21,886 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 05:00:28,622 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 05:00:28,631 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00059552
+2026-04-23 05:04:38,456 - INFO - --- 📡 PREDATOR SCAN (Current: arbitrum | Balance: $5.0001) ---
+2026-04-23 05:04:38,474 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 05:04:44,270 - WARNING - ⚠️ No safe opportunities found. Staying in Cash.
+2026-04-23 05:06:35,246 - INFO - --- 📡 Scanning all pools for Aave ---
+2026-04-23 05:06:35,316 - INFO - 📡 Scanning yields for 6 chains...
+2026-04-23 05:06:38,397 - INFO - 🎯 FOUND: aave-v3 on Arbitrum | APY: 6.14964% | TVL: $10,672,470
+2026-04-23 05:06:38,397 - INFO - 📈 Virtual Growth: +$0.00000878 | Balance: $5.00058430
