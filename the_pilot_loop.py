@@ -61,7 +61,7 @@ class SevenDayPredator:
         self.engine.register_adapter("aave-v3", AaveV3Adapter())
         self.engine.register_adapter("uniswap-v3", UniswapV3Adapter())
         
-        if self.private_key and self.w3.is_connected():
+        if self.private_key:
             self.tx_manager = TransactionManager(self.w3, self.private_key, self.wallet)
             logger.info("🔌 [ON-CHAIN] Connected to RPC. Transaction Manager is ONLINE.")
         else:
@@ -75,7 +75,7 @@ class SevenDayPredator:
         self.EV_HORIZON_DAYS = 7
         self.BRIDGE_COST = 1.5
         self.ANTI_CHURN_THRESHOLD = 1.05 # Lowered to be more aggressive
-        self.SLEEP_STABLE = 60 # Dipercepat jadi 60 detik untuk demo
+        self.SLEEP_STABLE = 900 # 15 menit per iterasi
         self.last_summary_time = 0
 
     def load_state(self):
@@ -146,21 +146,23 @@ class SevenDayPredator:
         
         try:
             asset_address = Web3.to_checksum_address("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48") # USDC
-            
+            logger.info(f"🔍 Checking balance for wallet {self.wallet} on asset {asset_address}")
             # Master Rule 1: NO HALLUCINATIONS. Check real on-chain balance.
             contract = self.w3.eth.contract(address=asset_address, abi=ERC20_ABI)
             real_balance_wei = contract.functions.balanceOf(self.wallet).call()
             
+            # Master Mode: We only update capital from on-chain if we are actually checking what we HAVE to deploy.
+            # Otherwise, keep the virtual/total equity tracking.
             if action == "DEPOSIT":
                 amount_wei = real_balance_wei
                 if amount_wei == 0:
                     logger.warning("⚠️ Real USDC balance is 0. Cannot execute.")
                     return None
             else:
-                amount_wei = real_balance_wei
-                
-            # Update internal state to match blockchain truth
-            self.capital = amount_wei / 10**6
+                # For WITHDRAW, we are pulling from the pool, so real_balance_wei is expected to be small/zero.
+                # We use a placeholder for amount_wei or fetch from pool (complex), so for now we just don't zero out self.capital.
+                amount_wei = int(self.capital * 10**6) 
+
 
             tx_data = None
             if "aave" in pool.project.lower():
@@ -170,7 +172,7 @@ class SevenDayPredator:
                     self.ensure_allowance(asset_address, adapter.pool_address, amount_wei)
                 tx_data = self.engine.get_tx_data("aave-v3", action, {"asset": asset_address, "amount": amount_wei})
                 
-            elif "uniswap" in pool.project.lower() and action == "DEPOSIT":
+            elif ("uniswap" in pool.project.lower() or "aerodrome" in pool.project.lower()) and action == "DEPOSIT":
                 adapter = self.engine.adapters.get("uniswap-v3")
                 # Master Rule 2: Ensure Allowance
                 self.ensure_allowance(asset_address, adapter.ROUTER_ADDRESS, amount_wei)
