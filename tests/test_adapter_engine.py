@@ -7,6 +7,7 @@ class MockAdapter(BaseAdapter):
     def encode_deposit(self, asset, amount): return TxData("0x1", "deposit_data")
     def encode_withdraw(self, asset, amount): return TxData("0x1", "withdraw_data")
     def encode_approve(self, asset, spender, amount): return TxData("0x2", "approve_data")
+    def encode_swap(self, token_in, token_out, amount_in, min_amount_out): return TxData("0x3", "swap_data")
 
 def test_adapter_engine_registration():
     engine = AdapterEngine()

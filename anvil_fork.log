@@ -1,0 +1,4 @@
+Error: failed to get fork block number
+
+Context:
+- server returned an error response: error code -32700: cannot parse json-rpc response: "Syntax error at index 0: invalid chars\n\n\tupstream connect error or discon\n\t^...............................\n", data: "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused"

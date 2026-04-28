@@ -63,6 +63,8 @@ def calculate_kelly_size(ev: float, capital_at_risk: float) -> float:
     return min(0.25, size)
 
 def calculate_trade_edge(pool: PoolData, capital: float, days: int, token_approval_gas: float, swap_slippage: float, deposit_gas: float, withdraw_gas: float, hidden_costs: float) -> float:
-    """Legacy wrapper for compatibility."""
+    """Legacy wrapper for pure trade edge calculation (profit - friction)."""
     friction = token_approval_gas + swap_slippage + deposit_gas + withdraw_gas + hidden_costs
-    return calculate_expected_value(pool, capital, days, friction)
+    adj_apy = pool.apy - pool.apy_volatility_penalty - pool.inflation_discount
+    profit = capital * (adj_apy / 100.0) * (days / 365.0)
+    return profit - friction

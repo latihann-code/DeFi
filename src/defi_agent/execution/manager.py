@@ -30,6 +30,13 @@ class TransactionManager:
     def refresh_nonce(self):
         self.nonce = self.w3.eth.get_transaction_count(self.address)
 
+    def simulate_transaction(self, tx: dict):
+        """Simulate a transaction using eth_call to catch reverts before spending gas."""
+        try:
+            self.w3.eth.call(tx)
+        except Exception as e:
+            raise RuntimeError(f"Pre-flight simulation failed: {str(e)}")
+
     def send_transaction(self, tx: dict, priority: str = "normal") -> str:
         """
         Melengkapi, menandatangani, dan mengirim transaksi.
@@ -38,6 +45,9 @@ class TransactionManager:
         tx["from"] = self.address
         tx["nonce"] = self.nonce
         tx["chainId"] = self.w3.eth.chain_id
+        
+        # Pre-flight simulation
+        self.simulate_transaction(tx)
         
         # Lengkapi Gas EIP-1559 jika belum ada
         if "maxFeePerGas" not in tx:

@@ -18,15 +18,14 @@ def main():
     private_key = os.getenv("PRIVATE_KEY")
     wallet_address = Web3.to_checksum_address(os.getenv("WALLET_ADDRESS"))
     manager = TransactionManager(w3, private_key, wallet_address)
-    aave_adapter = AaveV3Adapter()
+    aave_adapter = AaveV3Adapter(wallet_address=wallet_address)
     
     # 1. Fund ETH
     w3.provider.make_request("anvil_setBalance", [wallet_address, hex(w3.to_wei(10, "ether"))])
 
     # 2. Fund USDC (HACKY WAY - Minta dari Whale yang PASTI punya)
-    # USDC Whale: 0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503 (Binance)
-    # Kita coba whale lain: 0x28C6c06290CC32781f47183039640856110e7E67 (Binance 14)
-    whale = Web3.to_checksum_address("0x28C6c06290CC32781f47183039640856110e7E67")
+    # USDC Whale: 0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640 (Binance)
+    whale = Web3.to_checksum_address("0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640")
     usdc_address = Web3.to_checksum_address("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48")
     
     print(f"🛠️ Borrowing USDC from Whale {whale}...")
@@ -55,7 +54,7 @@ def main():
     if balance > 0:
         # 3. APPROVE
         print("🔑 Step 4A: Approving Aave...")
-        aave_pool = Web3.to_checksum_address(aave_adapter.POOL_ADDRESS)
+        aave_pool = Web3.to_checksum_address(aave_adapter.pool_address)
         approve_tx = manager.send_transaction({
             "to": usdc_address,
             "data": usdc_contract.encode_abi("approve", [aave_pool, balance])

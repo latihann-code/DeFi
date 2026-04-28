@@ -11,12 +11,12 @@ class TxData:
 
 class BaseAdapter(ABC):
     @abstractmethod
-    def encode_deposit(self, asset_address: str, amount: int) -> TxData:
+    def encode_deposit(self, asset_address: str, amount: int, min_amount_out: int = 0) -> TxData:
         """Encode fungsi deposit ke smart contract."""
         pass
 
     @abstractmethod
-    def encode_withdraw(self, asset_address: str, amount: int) -> TxData:
+    def encode_withdraw(self, asset_address: str, amount: int, min_amount_out: int = 0) -> TxData:
         """Encode fungsi withdraw dari smart contract."""
         pass
 

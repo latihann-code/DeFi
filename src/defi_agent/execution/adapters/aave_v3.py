@@ -1,3 +1,4 @@
+from web3 import Web3
 from defi_agent.execution.adapters.base import BaseAdapter, TxData
 
 class AaveV3Adapter(BaseAdapter):
@@ -10,42 +11,34 @@ class AaveV3Adapter(BaseAdapter):
         "optimism": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
     }
 
-    def __init__(self, chain: str = "ethereum"):
+    AAVE_ABI = [
+        {"inputs": [{"name": "asset", "type": "address"}, {"name": "amount", "type": "uint256"}, {"name": "onBehalfOf", "type": "address"}, {"name": "referralCode", "type": "uint16"}], "name": "supply", "outputs": [], "stateMutability": "nonpayable", "type": "function"},
+        {"inputs": [{"name": "asset", "type": "address"}, {"name": "amount", "type": "uint256"}, {"name": "to", "type": "address"}], "name": "withdraw", "outputs": [{"name": "", "type": "uint256"}], "stateMutability": "nonpayable", "type": "function"}
+    ]
+
+    ERC20_ABI = [
+        {"constant": False, "inputs": [{"name": "_spender", "type": "address"}, {"name": "_value", "type": "uint256"}], "name": "approve", "outputs": [{"name": "", "type": "bool"}], "type": "function"}
+    ]
+
+    def __init__(self, chain: str = "ethereum", wallet_address: str = "0x0000000000000000000000000000000000000000"):
         self.chain = chain.lower()
         self.pool_address = self.POOL_ADDRESSES.get(self.chain, self.POOL_ADDRESSES["ethereum"])
+        self.wallet_address = Web3.to_checksum_address(wallet_address)
+        self.w3 = Web3()
+        self.contract = self.w3.eth.contract(address=self.pool_address, abi=self.AAVE_ABI)
 
-    def encode_deposit(self, asset_address: str, amount: int) -> TxData:
-        """
-        Encode supply(asset, amount, onBehalfOf, referralCode)
-        Selector: 0x617ba037
-        """
-        # Kita pakai dummy encoding untuk demo, di sistem live gunakan web3.contract
-        p_asset = asset_address[2:].zfill(64)
-        p_amount = hex(amount)[2:].zfill(64)
-        # onBehalfOf dummy (akan diganti oleh manager)
-        p_on_behalf = "0".zfill(64)
-        p_referral = "0".zfill(64)
-        
-        data = f"0x617ba037{p_asset}{p_amount}{p_on_behalf}{p_referral}"
-        
-        return TxData(
-            to=self.pool_address,
-            data=data,
-            gas_limit=250000
-        )
+    def encode_deposit(self, asset_address: str, amount: int, min_amount_out: int = 0) -> TxData:
+        data = self.contract.encode_abi("supply", [Web3.to_checksum_address(asset_address), amount, self.wallet_address, 0])
+        return TxData(to=self.pool_address, data=data, gas_limit=250000)
 
-    def encode_withdraw(self, asset_address: str, amount: int) -> TxData:
-        p_asset = asset_address[2:].zfill(64)
-        p_amount = hex(amount)[2:].zfill(64)
-        p_to = "0".zfill(64)
-        data = f"0x69328dec{p_asset}{p_amount}{p_to}"
+    def encode_withdraw(self, asset_address: str, amount: int, min_amount_out: int = 0) -> TxData:
+        data = self.contract.encode_abi("withdraw", [Web3.to_checksum_address(asset_address), amount, self.wallet_address])
         return TxData(to=self.pool_address, data=data, gas_limit=300000)
 
     def encode_approve(self, asset_address: str, spender_address: str, amount: int) -> TxData:
-        p_spender = spender_address[2:].zfill(64)
-        p_amount = hex(amount)[2:].zfill(64)
-        data = f"0x095ea7b3{p_spender}{p_amount}"
-        return TxData(to=asset_address, data=data, gas_limit=60000)
+        erc20 = self.w3.eth.contract(address=Web3.to_checksum_address(asset_address), abi=self.ERC20_ABI)
+        data = erc20.encode_abi("approve", [Web3.to_checksum_address(spender_address), amount])
+        return TxData(to=Web3.to_checksum_address(asset_address), data=data, gas_limit=60000)
 
     def encode_swap(self, *args, **kwargs) -> TxData:
         raise NotImplementedError("Aave V3 Adapter tidak mendukung swap langsung.")
